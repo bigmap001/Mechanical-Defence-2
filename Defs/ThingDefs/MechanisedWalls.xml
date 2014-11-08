@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>MechWallExtended</defName>
+    <eType>Wall</eType>
+    <label>Extended Mechanical Wall</label>
+    <thingClass>MechanicalDefense2.MechWall.Building_MechWallExtended</thingClass>
+    <category>Building</category>
+    <description>An impassable mechanised wall.</description>
+    <graphicPathFolderAppearances>Things/Building/Linked/Wall</graphicPathFolderAppearances>
+    <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+    <blueprintgraphicPathSingle>Things/Building/Linked/Wall_Blueprint_Atlas</blueprintgraphicPathSingle>
+    <statBases>
+      <MaxHealth>300</MaxHealth>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <madeFromStuff>true</madeFromStuff>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Metal>50</Metal>
+      <Silver>20</Silver>
+    </costList>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <building>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <Comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </Comps>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>3</multiplier>
+      </li>
+    </damageMultipliers>
+    <linkDrawerType>CornerFiller</linkDrawerType>
+    <linkFlags>
+      <li>Wall</li>
+    </linkFlags>
+    <filthLeavings>
+      <SlagRubble>2</SlagRubble>
+    </filthLeavings>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>MechWallRecessed</defName>
+    <eType>Floor</eType>
+    <label>Recessed Mechanical Wall</label>
+    <thingClass>MechanicalDefense2.MechWall.Building_MechWallRecessed</thingClass>
+    <category>Building</category>
+    <description>A mechanised wall that has been recessed into the floor.</description>
+    <graphicPathSingle>Buildings/MechWall/MechWall_Recessed</graphicPathSingle>
+    <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+    <blueprintgraphicPathSingle>Things/Building/Linked/Wall_Blueprint_Atlas</blueprintgraphicPathSingle>
+    <statBases>
+      <MaxHealth>300</MaxHealth>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <combatTargetBuilding>false</combatTargetBuilding>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <madeFromStuff>true</madeFromStuff>
+    <castEdgeShadows>false</castEdgeShadows>
+    <menuHidden>true</menuHidden>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <blockLight>false</blockLight>
+    <itemSurface>false</itemSurface>
+    <building>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <Comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </Comps>
+    <linkDrawerType>CornerFiller</linkDrawerType>
+    <linkFlags>
+      <li>Wall</li>
+    </linkFlags>
+    <filthLeavings>
+      <SlagRubble>2</SlagRubble>
+    </filthLeavings>
+  </ThingDef>
+
+</Buildings>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResearchProjectDefs>
+
+  <ResearchProjectDef>
+    <defName>StorageI</defName>
+    <label>Storage Mk.I</label>
+    <description>Allows you to build a DSU (Deep Storage Unit) which holds a large amount of items.
+        -Holds 1000 of an item.</description>
+    <totalCost>400</totalCost>
+    <prerequisites></prerequisites>
+  </ResearchProjectDef>
+  
+	<ResearchProjectDef>
+		<defName>StorageII</defName>
+		<label>Storage Mk.II</label>
+		<description>Allows you to build an upgraded DSU (Deep Storage Unit) which can hold more items.
+        -Holds 1500 of an item.</description>
+		<totalCost>750</totalCost>
+		<prerequisites>
+      <li>StorageI</li>
+    </prerequisites>
+	</ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>StorageIII</defName>
+    <label>Storage Mk.III</label>
+    <description>Allows you to build an even deeper DSU (Deep Storage Unit) which can hold even more items.
+        -Holds 2250 of an item.</description>
+    <totalCost>1500</totalCost>
+    <prerequisites>
+      <li>StorageII</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</ResearchProjectDefs>
