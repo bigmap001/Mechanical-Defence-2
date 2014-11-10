@@ -2,12 +2,26 @@
 <ResearchProjectDefs>
 
   <ResearchProjectDef>
+    <defName>MD2Storage</defName>
+    <label>MD2 Deep Storage</label>
+    <description>
+      Unlocks researching Deep Storage Units, which are capable of holding large amounts of an item.
+    </description>
+    <totalCost>50</totalCost>
+    <prerequisites>
+      <li>MD2UtilitiesI</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>StorageI</defName>
     <label>Storage Mk.I</label>
     <description>Allows you to build a DSU (Deep Storage Unit) which holds a large amount of items.
         -Holds 1000 of an item.</description>
     <totalCost>400</totalCost>
-    <prerequisites></prerequisites>
+    <prerequisites>
+      <li>MD2Storage</li>
+    </prerequisites>
   </ResearchProjectDef>
   
 	<ResearchProjectDef>
