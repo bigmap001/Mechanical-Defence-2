@@ -3,7 +3,7 @@
 
   <ResearchProjectDef>
     <defName>MD2MechanisedWalls</defName>
-    <label>MD2 Mechanised Walls</label>
+    <label>MD2 Mechanical Walls</label>
     <description>Unlocks mechanical walls. These are special walls which can be raised or lowered, acting as walls and surprise ambush points. Require power to operate.</description>
     <totalCost>500</totalCost>
     <prerequisites>
