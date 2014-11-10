@@ -70,6 +70,7 @@
     <filthLeavings>
       <SlagRubble>2</SlagRubble>
     </filthLeavings>
+    <researchPrerequisite>MD2MechanisedWalls</researchPrerequisite>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">

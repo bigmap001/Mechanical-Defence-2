@@ -18,7 +18,7 @@
       <li>MD2Tech</li>
     </prerequisites>
   </ResearchProjectDef>
-<!--
+
   <ResearchProjectDef>
     <defName>MD2DefenceI</defName>
     <label>Defence I</label>
@@ -28,7 +28,7 @@
       <li>MD2Tech</li>
     </prerequisites>
   </ResearchProjectDef>
-
+<!--
   <ResearchProjectDef>
     <defName>MD2OffenceI</defName>
     <label>Offence I</label>
