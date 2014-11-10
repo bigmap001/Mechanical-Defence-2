@@ -13,11 +13,11 @@
   </ThingDef>
   
 
-  <ThingDef ParentName="BuildingBase" Class="MechanicalDefense2.CustomDefs.DSUDef">
+  <ThingDef ParentName="BuildingBase" Class="MechanicalDefence2.CustomDefs.DSUDef">
 		<defName>mipDeepStorageI</defName>
 		<eType>BuildingComplex</eType>
 		<label>Deep Storage Unit Mk.I</label>
-		<thingClass>MechanicalDefense2.Building_DeepStorage</thingClass>
+		<thingClass>MechanicalDefence2.Building_DeepStorage</thingClass>
     <graphicPathSingle>Buildings/Deep Storage/DSU</graphicPathSingle>
 		<altitudeLayer>Waist</altitudeLayer>
 		<passability>Impassable</passability>
@@ -72,11 +72,11 @@
 		<itemSurface>true</itemSurface>
 	</ThingDef>
 
-  <ThingDef ParentName="BuildingBase" Class="MechanicalDefense2.CustomDefs.DSUDef">
+  <ThingDef ParentName="BuildingBase" Class="MechanicalDefence2.CustomDefs.DSUDef">
     <defName>mipDeepStorageII</defName>
     <eType>BuildingComplex</eType>
     <label>Deep Storage Unit Mk.II</label>
-    <thingClass>MechanicalDefense2.Building_DeepStorage</thingClass>
+    <thingClass>MechanicalDefence2.Building_DeepStorage</thingClass>
     <graphicPathSingle>Buildings/Deep Storage/DSU</graphicPathSingle>
     <altitudeLayer>Waist</altitudeLayer>
     <passability>Impassable</passability>
@@ -131,11 +131,11 @@
     <itemSurface>true</itemSurface>
   </ThingDef>
 
-  <ThingDef ParentName="BuildingBase" Class="MechanicalDefense2.CustomDefs.DSUDef">
+  <ThingDef ParentName="BuildingBase" Class="MechanicalDefence2.CustomDefs.DSUDef">
     <defName>mipDeepStorageIII</defName>
     <eType>BuildingComplex</eType>
     <label>Deep Storage Unit Mk.III</label>
-    <thingClass>MechanicalDefense2.Building_DeepStorage</thingClass>
+    <thingClass>MechanicalDefence2.Building_DeepStorage</thingClass>
     <graphicPathSingle>Buildings/Deep Storage/DSU</graphicPathSingle>
     <altitudeLayer>Waist</altitudeLayer>
     <passability>Impassable</passability>

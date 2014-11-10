@@ -15,7 +15,7 @@
     <defName>MechWallExtended</defName>
     <eType>Wall</eType>
     <label>Extended Mechanical Wall</label>
-    <thingClass>MechanicalDefense2.MechWall.Building_MechWallExtended</thingClass>
+    <thingClass>MechanicalDefence2.MechWall.Building_MechWallExtended</thingClass>
     <category>Building</category>
     <description>An impassable mechanised wall.</description>
     <graphicPathFolderAppearances>Things/Building/Linked/Wall</graphicPathFolderAppearances>
@@ -76,7 +76,7 @@
     <defName>MechWallRecessed</defName>
     <eType>Floor</eType>
     <label>Recessed Mechanical Wall</label>
-    <thingClass>MechanicalDefense2.MechWall.Building_MechWallRecessed</thingClass>
+    <thingClass>MechanicalDefence2.MechWall.Building_MechWallRecessed</thingClass>
     <category>Building</category>
     <description>A mechanised wall that has been recessed into the floor.</description>
     <graphicPathSingle>Buildings/MechWall/MechWall_Recessed</graphicPathSingle>

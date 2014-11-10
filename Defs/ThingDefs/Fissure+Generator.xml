@@ -25,7 +25,7 @@
     <eType>BuildingComplex</eType>
     <label>Fissure</label>
     <defName>mipFissure</defName>
-    <thingClass>MechanicalDefense2.Miner.FissureClass</thingClass>
+    <thingClass>MechanicalDefence2.Miner.FissureClass</thingClass>
     <graphicPathSingle>Terrain/Fissure</graphicPathSingle>
     <shaderType>Transparent</shaderType>
     <altitudeLayer>Floor</altitudeLayer>
@@ -45,7 +45,7 @@
     <eType>BuildingComplex</eType>
     <label>Fissure Generator</label>
     <description>A powerful machine designed to crack open the earth and create a deep fissure which can be used to can access to the lower layers of the planet's crust.</description>
-    <thingClass>MechanicalDefense2.Miner.FissureGenerator</thingClass>
+    <thingClass>MechanicalDefence2.Miner.FissureGenerator</thingClass>
     <graphicPathSingle>Buildings/FissureGenerator/FissureGenerator</graphicPathSingle>
     <uiIconPath>Buildings/FissureGenerator/FissureGenerator</uiIconPath>
     <altitudeLayer>Waist</altitudeLayer>
