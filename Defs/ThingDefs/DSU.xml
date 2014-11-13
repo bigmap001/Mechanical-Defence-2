@@ -70,6 +70,7 @@
       <tallness>0.2</tallness>
     </sunShadowInfo>
 		<itemSurface>true</itemSurface>
+    <researchPrerequisite>StorageI</researchPrerequisite>
 	</ThingDef>
 
   <ThingDef ParentName="BuildingBase" Class="MechanicalDefence2.CustomDefs.DSUDef">
@@ -129,6 +130,7 @@
       <tallness>0.2</tallness>
     </sunShadowInfo>
     <itemSurface>true</itemSurface>
+    <researchPrerequisite>StorageII</researchPrerequisite>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase" Class="MechanicalDefence2.CustomDefs.DSUDef">
@@ -188,6 +190,7 @@
       <tallness>0.2</tallness>
     </sunShadowInfo>
     <itemSurface>true</itemSurface>
+    <researchPrerequisite>StorageIII</researchPrerequisite>
   </ThingDef>
 
 </Buildings>

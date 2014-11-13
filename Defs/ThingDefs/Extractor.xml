@@ -52,6 +52,7 @@
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Production</designationCategory>
     <staticSunShadowHeight>0.6</staticSunShadowHeight>
+<researchPrerequisite>MD2Extractor</researchPrerequisite>
   </ThingDef>
 
 </ThingDefs>

@@ -79,6 +79,7 @@
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Production</designationCategory>
     <staticSunShadowHeight>0</staticSunShadowHeight>
+    <researchPrerequisite>MD2FissureGenerator</researchPrerequisite>
   </ThingDef>
 
 </ThingDefs>
