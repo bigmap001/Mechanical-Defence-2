@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PawnKindDefs>
+
+  <PawnKindDef>
+    <defName>DroidKind</defName>
+    <label>droid</label>
+    <race>DroidRace</race>
+    <pointsCost>999999</pointsCost>
+    <defaultFactionType>Colony</defaultFactionType>
+    <baseRecruitDifficulty>60</baseRecruitDifficulty>
+    <backstoryCategory>Civil</backstoryCategory>
+    <outfits>
+      <li>
+        <def>Naked</def>
+        <commonality>10</commonality>
+      </li>
+    </outfits>
+    <apparelMoney>
+      <min>0</min>
+      <max>0</max>
+    </apparelMoney>
+  <standardBodyGraphicPathMulti>Pawns/Droid/Body/DroidPlaceholder</standardBodyGraphicPathMulti>
+  </PawnKindDef>
+
+
+	<!-- standardBodyGraphicPathMulti -->
+
+</PawnKindDefs>
