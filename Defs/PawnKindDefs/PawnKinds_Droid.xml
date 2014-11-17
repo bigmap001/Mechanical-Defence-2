@@ -19,7 +19,7 @@
       <min>0</min>
       <max>0</max>
     </apparelMoney>
-  <standardBodyGraphicPathMulti>Pawns/Droid/Body/DroidPlaceholder</standardBodyGraphicPathMulti>
+  <standardBodyGraphicPathMulti>Pawns/Droid/Body/Droid</standardBodyGraphicPathMulti>
   </PawnKindDef>
 
 
@@ -30,18 +30,7 @@
       <li>Cleaning</li>
       <li>Hauling</li>
     </allowedWorkTypeDefs>
-    <backstory>
-      <defName>LogisticsDroid</defName>
-      <baseDesc></baseDesc>
-      <bodyTypeGlobal>Thin</bodyTypeGlobal>
-      <title></title>
-      <titleShort></titleShort>
-      <allowedWorkTags>
-        <li>ManualDumb</li>
-        <li>Hauling</li>
-        <li>Cleaning</li>
-      </allowedWorkTags>
-    </backstory>
+    <backstoryName>LogisticsDroid</backstoryName>
   </PawnKindDef>
 
   <!-- <PawnKindDef ParentName="BaseDroidKind">
@@ -50,9 +39,7 @@
     <allowedWorkTypeDefs>
       <li></li>
     </allowedWorkTypeDefs>
-    <allowedWorkTags>
-      <li></li>
-    </allowedWorkTags>
+    <backstoryName></backstoryName>
   </PawnKindDef> -->
 
 </PawnKindDefs>

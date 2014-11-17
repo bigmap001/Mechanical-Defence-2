@@ -37,7 +37,7 @@
     <label>droid</label>
     <description>An intelligent droid.</description>
     <uiIconPath>Things/Pawn/Humanoid/UI/IconHuman</uiIconPath>
-    <standardHeadGraphicPathMulti>Pawns/Droid/Head/DroidPlaceholderHead</standardHeadGraphicPathMulti>
+    <standardHeadGraphicPathMulti>Pawns/Droid/Head/DroidHead</standardHeadGraphicPathMulti>
     <sunShadowInfo>
       <baseWidth>0.4</baseWidth>
       <baseHeight>0.4</baseHeight>
