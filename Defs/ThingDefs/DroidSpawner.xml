@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Class="MechanicalDefence2.Droids.RecipeInfoDef">
+    <defName>MD2DroidRecipeList</defName>
+    <thingClass>Thing</thingClass>
+    <tradersCarry>false</tradersCarry>
+    <recipesInfo>
+      <li>
+        <recipeDef>MD2MakeLogisticsDroid</recipeDef>
+        <researchDef>MD2WorkerDroid</researchDef>
+      </li>
+    </recipesInfo>
+  </ThingDef>
+  
+  <ThingDef Name="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComponents</thingClass>
+    <label>unspecified resource</label>
+    <category>Item</category>
+    <eType>Item</eType>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useStandardHealth>true</useStandardHealth>
+    <statBases>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>1</stackLimit>
+    <tradersCarry>false</tradersCarry>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+    </comps>
+    <alwaysHaulable>false</alwaysHaulable>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase" Name="DroidSpawnerBase" Abstract="true">
+    <thingClass>MechanicalDefence2.Droids.DroidSpawner</thingClass>
+    <tickerType>Normal</tickerType>
+    <label>droid spawner</label>
+    <selectable>false</selectable>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <graphicPathSingle>Default</graphicPathSingle>
+  </ThingDef>
+
+  <ThingDef ParentName="DroidSpawnerBase">
+    <defName>MD2SpawnLogisticsDroid</defName>
+    <label>LogisticsDroid</label>
+  </ThingDef>
+  
+</ThingDefs>

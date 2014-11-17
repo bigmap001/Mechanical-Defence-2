@@ -28,6 +28,7 @@
       <li>ITab_Pawn_Prisoner</li>
       <li>ITab_Pawn_Gear</li>
       <li>ITab_Pawn_Health</li>
+          <li>ITab_Pawn_Character</li>
     </inspectorTabs>
     <drawGUIOverlay>true</drawGUIOverlay>
   </ThingDef>
@@ -52,16 +53,16 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <cooldownTicks>100</cooldownTicks>
-        <meleeDamageAmount>7</meleeDamageAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
-        <linkedBodyPartsGroup>LeftFist</linkedBodyPartsGroup>
+        <meleeDamageAmount>10</meleeDamageAmount>
+        <meleeDamageDef>Cut</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftKnifeProtrusion</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <cooldownTicks>100</cooldownTicks>
-        <meleeDamageAmount>7</meleeDamageAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
-        <linkedBodyPartsGroup>RightFist</linkedBodyPartsGroup>
+        <meleeDamageAmount>10</meleeDamageAmount>
+        <meleeDamageDef>Cut</meleeDamageDef>
+        <linkedBodyPartsGroup>RightKnifeProtrusion</linkedBodyPartsGroup>
       </li>
     </verbs>
     <drawGUIOverlay>false</drawGUIOverlay>
@@ -76,7 +77,7 @@
       <minFoodQuality>Raw</minFoodQuality>
       <hungerRate>0</hungerRate>
       <needsRest>true</needsRest>
-      <body>Human</body>
+      <body>Mechanoid</body>
       <bodySize>1</bodySize>
       <healthScale>1</healthScale>
       <diet>Omnivorous</diet>

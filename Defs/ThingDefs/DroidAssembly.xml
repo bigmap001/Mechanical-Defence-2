@@ -19,6 +19,7 @@
     <ThingClass>MechanicalDefence2.Droids.DroidAssembly</ThingClass>
     <Description>A workspace equipped for constructing droids.</Description>
     <graphicPathSingle>Buildings/Droids/DroidAssembly</graphicPathSingle>
+    <tickerType>Rare</tickerType>
     <CostList>
       <Metal>200</Metal>
     </CostList>
@@ -45,6 +46,9 @@
         <soundPowerOff>PowerOffSmall</soundPowerOff>
       </li>
     </comps>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>

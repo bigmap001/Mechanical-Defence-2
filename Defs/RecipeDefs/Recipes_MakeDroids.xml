@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+	<RecipeDef>
+		<defName>MD2MakeLogisticsDroid</defName>
+		<label>make logistics droid</label>
+		<description>Constructs a logistics droid.
+    --Requires 150 metal.</description>
+		<jobString>Constructing droid.</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>StonecuttingSpeed</workSpeedStat>
+		<efficiencyStat>StonecuttingEfficiency</efficiencyStat>
+		<workEffect>UseMetalRefinery</workEffect>
+    <sustainerSoundDef>Interact_ConstructMetal</sustainerSoundDef>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Metal</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+		<products>
+      <MD2SpawnLogisticsDroid>1</MD2SpawnLogisticsDroid>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Metal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillGains>
+			<li>
+				<skill>Crafting</skill>
+				<xp>130</xp>
+			</li>
+		</skillGains>
+	</RecipeDef>
+
+</RecipeDefs>
