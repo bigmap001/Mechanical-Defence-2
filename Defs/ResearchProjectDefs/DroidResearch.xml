@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ResearchProjectDefs>
+
+  <ResearchProjectDef>
+    <defName>MD2Droids</defName>
+    <label>Droids</label>
+    <description>
+Unlocks research options for building and maintaining droids.
+    </description>
+    <totalCost>50</totalCost>
+    <prerequisites>
+      <li>MD2UtilitiesI</li>
+      <li>MD2DefenceI</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD2DroidCharger</defName>
+    <label>MD2 Droid Charge Pad</label>
+    <description>
+      Unlocks building the Droid Charging Pad, which will charge droids standing on it. Required to start building droids.
+    </description>
+    <totalCost>250</totalCost>
+    <prerequisites>
+      <li>MD2Droids</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD2WorkerDroid</defName>
+    <label>MD2 Worker Droid</label>
+    <description>
+      Unlocks building your first Droid - the worker droid. This droid will clean and haul things. Also unlocked is the Droid Assembly, which is where you will build all of your droids. 
+    </description>
+    <totalCost>500</totalCost>
+    <prerequisites>
+      <li>MD2DroidCharger</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+</ResearchProjectDefs>

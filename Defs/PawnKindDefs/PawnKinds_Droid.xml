@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <PawnKindDefs>
 
-  <PawnKindDef>
-    <defName>DroidKind</defName>
+  <PawnKindDef Name="BaseDroidKind" Abstract ="true" Class="MechanicalDefence2.Droids.DroidKindDef">
     <label>droid</label>
     <race>DroidRace</race>
     <pointsCost>999999</pointsCost>
     <defaultFactionType>Colony</defaultFactionType>
     <baseRecruitDifficulty>60</baseRecruitDifficulty>
     <backstoryCategory>Civil</backstoryCategory>
+    <isFighter>false</isFighter>
     <outfits>
       <li>
         <def>Naked</def>
@@ -23,6 +23,36 @@
   </PawnKindDef>
 
 
-	<!-- standardBodyGraphicPathMulti -->
+  <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
+    <defName>MD2LogisticsDroid</defName>
+    <label>logistics droid</label>
+    <allowedWorkTypeDefs>
+      <li>Cleaning</li>
+      <li>Hauling</li>
+    </allowedWorkTypeDefs>
+    <backstory>
+      <defName>LogisticsDroid</defName>
+      <baseDesc></baseDesc>
+      <bodyTypeGlobal>Thin</bodyTypeGlobal>
+      <title></title>
+      <titleShort></titleShort>
+      <allowedWorkTags>
+        <li>ManualDumb</li>
+        <li>Hauling</li>
+        <li>Cleaning</li>
+      </allowedWorkTags>
+    </backstory>
+  </PawnKindDef>
+
+  <!-- <PawnKindDef ParentName="BaseDroidKind">
+    <defName></defName>
+    <label> droid</label>
+    <allowedWorkTypeDefs>
+      <li></li>
+    </allowedWorkTypeDefs>
+    <allowedWorkTags>
+      <li></li>
+    </allowedWorkTags>
+  </PawnKindDef> -->
 
 </PawnKindDefs>

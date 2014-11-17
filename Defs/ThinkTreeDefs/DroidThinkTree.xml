@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThinkTrees>
+
+  <ThinkTreeDef>
+    <defName>MD2DroidThinkTree</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="JobGiver_Orders" />
+        <li Class="MechanicalDefence2.Droids.JobGiver_Critical"/>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>BurningResponse</treeDef>
+        </li>
+        <li Class="ThinkNode_ConditionalNotDrafted">
+          <subNodes>
+            <li Class="ThinkNode_Subtree">
+              <treeDef>SelfDefense</treeDef>
+            </li>
+          </subNodes>
+        </li>
+        <li Class="MechanicalDefence2.Droids.JobGiver_StaySafe"/>
+        <li Class="MechanicalDefence2.Droids.JobGiver_TopUp"/>
+
+        <li Class="JobGiver_JobQueue" />
+        <li Class="MechanicalDefence2.Droids.JobGiver_ForDroids"/>
+        <li Class="ThinkNode_Tagger">
+          <tagToGive>Idle</tagToGive>
+          <subNodes>
+            <li Class="JobGiver_WanderColony">
+            </li>
+          </subNodes>
+        </li>
+        <li Class="JobGiver_IdleError"/>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+</ThinkTrees>

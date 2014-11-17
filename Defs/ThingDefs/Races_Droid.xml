@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
-
+<!-- /////////////Corpse////////////////////-->
+  <ThingDef>
+    <defName>MD2DroidCorpse</defName>
+    <eType>Corpse</eType>
+    <thingClass>MechanicalDefence2.Droids.DroidCorpse</thingClass>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--////////////////////////////////////-->
 
   <ThingDef Name="BasePawn" Abstract="True">
     <eType>Pawn </eType>
@@ -34,6 +46,7 @@
     <statBases>
       <MoveSpeed>4.61</MoveSpeed>
       <Flammability>0.0</Flammability>
+      <MaxHealth>100</MaxHealth>
     </statBases>
     <verbs>
       <li>
@@ -53,7 +66,7 @@
     </verbs>
     <drawGUIOverlay>false</drawGUIOverlay>
     <race>
-      <thinkTree>Humanoid</thinkTree>
+      <thinkTree>MD2DroidThinkTree</thinkTree>
       <humanoid>true</humanoid>
       <hasGenders>true</hasGenders>
       <isFlesh>true</isFlesh>
@@ -67,11 +80,11 @@
       <bodySize>1</bodySize>
       <healthScale>1</healthScale>
       <diet>Omnivorous</diet>
-      <soundWounded>Pawn_Human_Wounded</soundWounded>
-      <soundDeath>Pawn_Human_Death</soundDeath>
-      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+      <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+      <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
     </race>
   </ThingDef>
 </ThingDefs>
