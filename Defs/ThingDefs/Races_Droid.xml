@@ -28,7 +28,6 @@
       <li>ITab_Pawn_Prisoner</li>
       <li>ITab_Pawn_Gear</li>
       <li>ITab_Pawn_Health</li>
-          <li>ITab_Pawn_Character</li>
     </inspectorTabs>
     <drawGUIOverlay>true</drawGUIOverlay>
   </ThingDef>
@@ -68,9 +67,10 @@
     <drawGUIOverlay>false</drawGUIOverlay>
     <race>
       <thinkTree>MD2DroidThinkTree</thinkTree>
+      <mechanoid>true</mechanoid>
       <humanoid>true</humanoid>
-      <hasGenders>true</hasGenders>
-      <isFlesh>true</isFlesh>
+      <hasGenders>false</hasGenders>
+      <isFlesh>false</isFlesh>
       <hasLeather>false</hasLeather>
       <nameCategory>HumanStandard</nameCategory>
       <hasStory>true</hasStory>

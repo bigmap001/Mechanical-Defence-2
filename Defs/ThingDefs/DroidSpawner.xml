@@ -10,6 +10,26 @@
         <recipeDef>MD2MakeLogisticsDroid</recipeDef>
         <researchDef>MD2WorkerDroid</researchDef>
       </li>
+      <li>
+        <recipeDef>MD2MakeMiningDroid</recipeDef>
+        <researchDef>MD2MiningDroid</researchDef>
+      </li>
+      <li>
+        <recipeDef>MD2MakeGrowerDroid</recipeDef>
+        <researchDef>MD2GrowerDroid</researchDef>
+      </li>
+      <li>
+        <recipeDef>MD2MakeMedicDroid</recipeDef>
+        <researchDef>MD2MedicDroid</researchDef>
+      </li>
+      <li>
+        <recipeDef>MD2MakeBuilderDroid</recipeDef>
+        <researchDef>MD2BuilderDroid</researchDef>
+      </li>
+      <li>
+        <recipeDef>MD2MakeCraftingDroid</recipeDef>
+        <researchDef>MD2CraftingDroid</researchDef>
+      </li>
     </recipesInfo>
   </ThingDef>
   
@@ -52,5 +72,31 @@
     <defName>MD2SpawnLogisticsDroid</defName>
     <label>LogisticsDroid</label>
   </ThingDef>
+  
+  <ThingDef ParentName="DroidSpawnerBase">
+    <defName>MD2SpawnMiningDroid</defName>
+    <label>MiningDroid</label>
+  </ThingDef>
+
+  <ThingDef ParentName="DroidSpawnerBase">
+    <defName>MD2SpawnGrowerDroid</defName>
+    <label>GrowerDroid</label>
+  </ThingDef>
+
+  <ThingDef ParentName="DroidSpawnerBase">
+    <defName>MD2SpawnMedicDroid</defName>
+    <label>MedicDroid</label>
+  </ThingDef>
+
+  <ThingDef ParentName="DroidSpawnerBase">
+    <defName>MD2SpawnBuilderDroid</defName>
+    <label>BuilderDroid</label>
+  </ThingDef>
+
+  <ThingDef ParentName="DroidSpawnerBase">
+    <defName>MD2SpawnCraftingDroid</defName>
+    <label>CraftingDroid</label>
+  </ThingDef>
+  
   
 </ThingDefs>

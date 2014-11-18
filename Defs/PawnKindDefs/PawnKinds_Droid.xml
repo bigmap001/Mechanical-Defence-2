@@ -9,6 +9,7 @@
     <baseRecruitDifficulty>60</baseRecruitDifficulty>
     <backstoryCategory>Civil</backstoryCategory>
     <isFighter>false</isFighter>
+    <maxEnergy>500</maxEnergy>
     <outfits>
       <li>
         <def>Naked</def>
@@ -25,12 +26,63 @@
 
   <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
     <defName>MD2LogisticsDroid</defName>
-    <label>logistics droid</label>
+    <label>Logistics Droid</label>
     <allowedWorkTypeDefs>
       <li>Cleaning</li>
       <li>Hauling</li>
     </allowedWorkTypeDefs>
     <backstoryName>LogisticsDroid</backstoryName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
+    <defName>MD2MiningDroid</defName>
+    <label>Mining Droid</label>
+    <allowedWorkTypeDefs>
+      <li>Firefighter</li>
+      <li>Mining</li>
+    </allowedWorkTypeDefs>
+    <backstoryName>MiningDroid</backstoryName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
+    <defName>MD2GrowerDroid</defName>
+    <label>Grower Droid</label>
+    <allowedWorkTypeDefs>
+      <li>Firefighter</li>
+      <li>Growing</li>
+      <li>PlantCutting</li>
+    </allowedWorkTypeDefs>
+    <backstoryName>GrowerDroid</backstoryName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
+    <defName>MD2MedicDroid</defName>
+    <label>Medic Droid</label>
+    <allowedWorkTypeDefs>
+      <li>Firefighter</li>
+      <li>Doctor</li>
+    </allowedWorkTypeDefs>
+    <backstoryName>MedicDroid</backstoryName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
+    <defName>MD2BuilderDroid</defName>
+    <label>Builder Droid</label>
+    <allowedWorkTypeDefs>
+      <li>Firefighter</li>
+      <li>Construction</li>
+    </allowedWorkTypeDefs>
+    <backstoryName>BuilderDroid</backstoryName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
+    <defName>MD2CraftingDroid</defName>
+    <label>Crafting Droid</label>
+    <allowedWorkTypeDefs>
+      <li>Firefighter</li>
+      <li>Crafting</li>
+    </allowedWorkTypeDefs>
+    <backstoryName>CraftingDroid</backstoryName>
   </PawnKindDef>
 
   <!-- <PawnKindDef ParentName="BaseDroidKind">

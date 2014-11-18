@@ -1,17 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
-
-	<RecipeDef>
-		<defName>MD2MakeLogisticsDroid</defName>
-		<label>make logistics droid</label>
-		<description>Constructs a logistics droid.
-    --Requires 150 metal.</description>
-		<jobString>Constructing droid.</jobString>
-		<workAmount>1000</workAmount>
-		<workSpeedStat>StonecuttingSpeed</workSpeedStat>
-		<efficiencyStat>StonecuttingEfficiency</efficiencyStat>
-		<workEffect>UseMetalRefinery</workEffect>
+  <RecipeDef Name="BaseDroidRecipe" Abstract="true">
+    <jobString>Constructing droid.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>MD2BuildDroidSpeed</workSpeedStat>
+    <workEffect>UseMetalRefinery</workEffect>
     <sustainerSoundDef>Interact_ConstructMetal</sustainerSoundDef>
+  </RecipeDef>
+  
+  
+  <RecipeDef ParentName="BaseDroidRecipe">
+    <defName>MD2MakeLogisticsDroid</defName>
+    <label>make logistics droid</label>
+    <description>
+      Constructs a logistics droid.
+      --Requires 75 metal.
+    </description>
     <ingredients>
 			<li>
 				<filter>
@@ -19,7 +23,7 @@
 						<li>Metal</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>75</count>
 			</li>
 		</ingredients>
 		<products>
@@ -37,5 +41,170 @@
 			</li>
 		</skillGains>
 	</RecipeDef>
+
+  <RecipeDef ParentName="BaseDroidRecipe">
+    <defName>MD2MakeMiningDroid</defName>
+    <label>make mining droid</label>
+    <description>
+      Constructs a mining droid.
+      --Requires 75 metal.
+    </description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Metal</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2SpawnMiningDroid>1</MD2SpawnMiningDroid>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Metal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>150</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BaseDroidRecipe">
+    <defName>MD2MakeGrowerDroid</defName>
+    <label>make grower droid</label>
+    <description>
+      Constructs a grower droid.
+      --Requires 75 metal.
+    </description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Metal</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2SpawnGrowerDroid>1</MD2SpawnGrowerDroid>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Metal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>150</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BaseDroidRecipe">
+    <defName>MD2MakeMedicDroid</defName>
+    <label>make medic droid</label>
+    <description>
+      Constructs a medic droid.
+      --Requires 75 metal.
+    </description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Metal</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2SpawnMedicDroid>1</MD2SpawnMedicDroid>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Metal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>150</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BaseDroidRecipe">
+    <defName>MD2MakeBuilderDroid</defName>
+    <label>make builder droid</label>
+    <description>
+      Constructs a builder droid.
+      --Requires 75 metal.
+    </description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Metal</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2SpawnBuilderDroid>1</MD2SpawnBuilderDroid>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Metal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>150</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BaseDroidRecipe">
+    <defName>MD2MakeCraftingDroid</defName>
+    <label>make crafting droid</label>
+    <description>
+      Constructs a crafting droid.
+      --Requires 75 metal.
+    </description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Metal</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2SpawnCraftingDroid>1</MD2SpawnCraftingDroid>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Metal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>150</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
 
 </RecipeDefs>
