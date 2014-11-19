@@ -35,7 +35,7 @@ Unlocks the Droid Assembly. This is a workbench which is where all your droids w
     <description>
       Unlocks the worker droid to be available for construction at the Droid Assembly. This droid cleans your base and hauls things around.
     </description>
-    <totalCost>500</totalCost>
+    <totalCost>200</totalCost>
     <prerequisites>
       <li>MD2DroidCharger</li>
     </prerequisites>
@@ -94,6 +94,18 @@ Unlocks the Droid Assembly. This is a workbench which is where all your droids w
     <label>MD2 Crafting Droid</label>
     <description>
       Unlocks the crafting droid to be available for construction at the Droid Assembly. This droid is proficient at crafting.
+    </description>
+    <totalCost>200</totalCost>
+    <prerequisites>
+      <li>MD2DroidCharger</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD2CookingDroid</defName>
+    <label>MD2 Cooking Droid</label>
+    <description>
+      Unlocks the cooking droid to be available for construction at the Droid Assembly. This droid is an excellent chef.
     </description>
     <totalCost>200</totalCost>
     <prerequisites>

@@ -207,4 +207,37 @@
     </skillGains>
   </RecipeDef>
 
+  <RecipeDef ParentName="BaseDroidRecipe">
+    <defName>MD2MakeCookingDroid</defName>
+    <label>make cooking droid</label>
+    <description>
+      Constructs a cooking droid.
+      --Requires 75 metal.
+    </description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Metal</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2SpawnCookingDroid>1</MD2SpawnCookingDroid>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Metal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>150</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
 </RecipeDefs>

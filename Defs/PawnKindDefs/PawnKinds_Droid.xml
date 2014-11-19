@@ -9,7 +9,7 @@
     <baseRecruitDifficulty>60</baseRecruitDifficulty>
     <backstoryCategory>Civil</backstoryCategory>
     <isFighter>false</isFighter>
-    <maxEnergy>500</maxEnergy>
+    <maxEnergy>750</maxEnergy>
     <outfits>
       <li>
         <def>Naked</def>
@@ -83,6 +83,16 @@
       <li>Crafting</li>
     </allowedWorkTypeDefs>
     <backstoryName>CraftingDroid</backstoryName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
+    <defName>MD2CookingDroid</defName>
+    <label>Cooking Droid</label>
+    <allowedWorkTypeDefs>
+      <li>Firefighter</li>
+      <li>Cooking</li>
+    </allowedWorkTypeDefs>
+    <backstoryName>CookingDroid</backstoryName>
   </PawnKindDef>
 
   <!-- <PawnKindDef ParentName="BaseDroidKind">

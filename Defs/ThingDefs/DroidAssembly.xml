@@ -52,6 +52,6 @@
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
-    <researchPrerequisite>MD2WorkerDroid</researchPrerequisite>
+    <researchPrerequisite>MD2Droids</researchPrerequisite>
   </ThingDef>
 </ThingDefs>
