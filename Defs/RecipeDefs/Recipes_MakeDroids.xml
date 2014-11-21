@@ -441,4 +441,58 @@
     </skillGains>
   </RecipeDef>
 
+  <RecipeDef ParentName="BaseDroidRecipe">
+    <defName>MD2MakeCrematoriusDroid</defName>
+    <label>make crematorius droid</label>
+    <description>
+      Constructs a cremation droid.
+      Requires:
+      --75 metal.
+      --75 silver.
+      --35 circuitry.
+    </description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Metal</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Circuitry</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2SpawnCrematoriusDroid>1</MD2SpawnCrematoriusDroid>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Metal</li>
+        <li>Silver</li>
+        <li>MD2Circuitry</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>150</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
 </RecipeDefs>

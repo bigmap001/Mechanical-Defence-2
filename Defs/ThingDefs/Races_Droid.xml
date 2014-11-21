@@ -32,6 +32,62 @@
     <drawGUIOverlay>true</drawGUIOverlay>
   </ThingDef>
   
+  <ThingDef Name="BaseDroid" Abstract="true" ParentName="BasePawn" Class="MechanicalDefence2.Droids.DroidThingDef">
+    <label>droid</label>
+    <description>An intelligent droid.</description>
+    <uiIconPath>Things/Pawn/Humanoid/UI/IconHuman</uiIconPath>
+    <standardHeadGraphicPathMulti>Pawns/Droid/Head/DroidHead</standardHeadGraphicPathMulti>
+    <sunShadowInfo>
+      <baseWidth>0.4</baseWidth>
+      <baseHeight>0.4</baseHeight>
+      <tallness>0.8</tallness>
+    </sunShadowInfo>
+    <statBases>
+      <MoveSpeed>4.61</MoveSpeed>
+      <Flammability>0.0</Flammability>
+      <MaxHealth>100</MaxHealth>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>10</meleeDamageAmount>
+        <meleeDamageDef>Cut</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftKnifeProtrusion</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <cooldownTicks>100</cooldownTicks>
+        <meleeDamageAmount>10</meleeDamageAmount>
+        <meleeDamageDef>Cut</meleeDamageDef>
+        <linkedBodyPartsGroup>RightKnifeProtrusion</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <race>
+      <thinkTree>MD2DroidThinkTree</thinkTree>
+      <mechanoid>true</mechanoid>
+      <humanoid>true</humanoid>
+      <hasGenders>false</hasGenders>
+      <isFlesh>false</isFlesh>
+      <hasLeather>false</hasLeather>
+      <nameCategory>HumanStandard</nameCategory>
+      <hasStory>true</hasStory>
+      <minFoodQuality>Raw</minFoodQuality>
+      <hungerRate>0</hungerRate>
+      <needsRest>true</needsRest>
+      <body>Mechanoid</body>
+      <bodySize>1</bodySize>
+      <healthScale>1</healthScale>
+      <diet>Omnivorous</diet>
+      <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+      <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+      <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
   <ThingDef ParentName="BasePawn" Class="MechanicalDefence2.Droids.DroidThingDef">
     <defName>DroidRace</defName>
     <label>droid</label>
@@ -86,6 +142,14 @@
       <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseDroid" Class="MechanicalDefence2.Droids.DroidThingDef">
+    <defName>CrematoriusDroidRace</defName>
+    <thingClass>MechanicalDefence2.Droids.Crematorius</thingClass>
+    <race>
+      <thinkTree>MD2CrematoriusDroidThinkTree</thinkTree>
     </race>
   </ThingDef>
 </ThingDefs>

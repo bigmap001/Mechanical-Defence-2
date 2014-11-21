@@ -107,6 +107,16 @@
     <backstoryName>BasicCombatDroid</backstoryName>
   </PawnKindDef>
 
+  <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
+    <defName>MD2CrematoriusDroid</defName>
+    <label>Crematorius</label>
+    <race>CrematoriusDroidRace</race>
+    <allowedWorkTypeDefs>
+      <li>Firefighter</li>
+    </allowedWorkTypeDefs>
+    <backstoryName>CrematoriusDroid</backstoryName>
+  </PawnKindDef>
+
   <!-- <PawnKindDef ParentName="BaseDroidKind">
     <defName></defName>
     <label> droid</label>

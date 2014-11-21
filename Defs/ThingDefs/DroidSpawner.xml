@@ -38,6 +38,10 @@
         <recipeDef>MD2MakeBasicCombatDroid</recipeDef>
         <researchDef>MD2BasicCombatDroid</researchDef>
       </li>
+      <li>
+        <recipeDef>MD2MakeCrematoriusDroid</recipeDef>
+        <!--<researchDef>MD2BasicCombatDroid</researchDef>-->
+      </li>
     </recipesInfo>
   </ThingDef>
   
@@ -114,6 +118,11 @@
     <ThingDef ParentName="DroidSpawnerBase">
     <defName>MD2SpawnBasicCombatDroid</defName>
     <label>BasicCombatDroid</label>
+  </ThingDef>
+
+  <ThingDef ParentName="DroidSpawnerBase">
+    <defName>MD2SpawnCrematoriusDroid</defName>
+    <label>CrematoriusDroid</label>
   </ThingDef>
   
   
