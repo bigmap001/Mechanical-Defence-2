@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RecipeDefs>
+
+  <RecipeDef>
+    <defName>MD2MakeSilicon</defName>
+    <label>make silicon</label>
+    <description>Melts down sand to extract the silicon from it.</description>
+    <jobString>Making silicon.</jobString>
+    <workAmount>300</workAmount>
+    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <efficiencyStat>StonecuttingEfficiency</efficiencyStat>
+    <workEffect>UseMetalRefinery</workEffect>
+    <sustainerSoundDef>Recipe_UseMetalRefinery</sustainerSoundDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2SandPile</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2Silicon>20</MD2Silicon>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MD2SandPile</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>50</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>MD2MakeSandPile</defName>
+    <label>make sand pile</label>
+    <description>Crushes a rock chunk into sand.</description>
+    <jobString>Crushing stone.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <efficiencyStat>StonecuttingEfficiency</efficiencyStat>
+    <workEffect>CutStone</workEffect>
+    <sustainerSoundDef>Recipe_MakeStoneBlocks</sustainerSoundDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkRock</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2SandPile>100</MD2SandPile>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkRock</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>120</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>MD2MakeCircuitry</defName>
+    <label>make circuitry</label>
+    <description>Assembles various circuitry.</description>
+    <jobString>Soldering PCB's.</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>MD2SolderingSpeed</workSpeedStat>
+    <efficiencyStat>MD2SolderingEfficiency</efficiencyStat>
+    <workEffect>Repair</workEffect>
+    <sustainerSoundDef>Interact_Repair</sustainerSoundDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Silicon</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Metal</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2Circuitry>5</MD2Circuitry>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Metal</li>
+        <li>Silver</li>
+        <li>MD2Silicon</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>150</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+</RecipeDefs>

@@ -12,6 +12,7 @@ Unlocks the Droid Assembly. This is a workbench which is where all your droids w
     <prerequisites>
       <li>MD2UtilitiesI</li>
       <li>MD2DefenceI</li>
+      <li>MD2OffenceI</li>
     </prerequisites>
   </ResearchProjectDef>
 
@@ -106,6 +107,18 @@ Unlocks the Droid Assembly. This is a workbench which is where all your droids w
     <label>MD2 Cooking Droid</label>
     <description>
       Unlocks the cooking droid to be available for construction at the Droid Assembly. This droid is an excellent chef.
+    </description>
+    <totalCost>200</totalCost>
+    <prerequisites>
+      <li>MD2DroidCharger</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD2BasicCombatDroid</defName>
+    <label>MD2 Basic Combat Droid</label>
+    <description>
+      Unlocks the basic combat droid to be available for construction at the Droid Assembly. This droid is the first succesful combat droid to be manufactured, being that it did not attempt to kill your colonists upon completion.
     </description>
     <totalCost>200</totalCost>
     <prerequisites>

@@ -11,7 +11,7 @@
 
   <ResearchProjectDef>
     <defName>MD2UtilitiesI</defName>
-    <label>Utilities I</label>
+    <label>MD2 Utilities I</label>
     <description>Unlocks researching the tier I utilities techs from MD2.</description>
     <totalCost>100</totalCost>
     <prerequisites>
@@ -21,22 +21,22 @@
 
   <ResearchProjectDef>
     <defName>MD2DefenceI</defName>
-    <label>Defence I</label>
+    <label>MD2 Defence I</label>
     <description>Unlocks researching the tier I defence techs from MD2.</description>
     <totalCost>100</totalCost>
     <prerequisites>
       <li>MD2Tech</li>
     </prerequisites>
   </ResearchProjectDef>
-<!--
+
   <ResearchProjectDef>
     <defName>MD2OffenceI</defName>
-    <label>Offence I</label>
+    <label>MD2 Offence I</label>
     <description>Unlocks researching the tier I offence techs from MD2.</description>
     <totalCost>100</totalCost>
     <prerequisites>
       <li>MD2Tech</li>
     </prerequisites>
   </ResearchProjectDef>
-  -->
+
 </ResearchProjectDefs>

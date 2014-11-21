@@ -14,7 +14,10 @@
     <label>make logistics droid</label>
     <description>
       Constructs a logistics droid.
-      --Requires 75 metal.
+      Requires:
+        --75 metal.
+        --30 silver.
+        --10 circuitry.
     </description>
     <ingredients>
 			<li>
@@ -25,6 +28,22 @@
 				</filter>
 				<count>75</count>
 			</li>
+            <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Circuitry</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
 		</ingredients>
 		<products>
       <MD2SpawnLogisticsDroid>1</MD2SpawnLogisticsDroid>
@@ -32,6 +51,8 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Metal</li>
+        <li>Silver</li>
+        <li>MD2Circuitry</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<skillGains>
@@ -47,7 +68,10 @@
     <label>make mining droid</label>
     <description>
       Constructs a mining droid.
-      --Requires 75 metal.
+      Requires:
+        --75 metal.
+        --60 silver.
+        --20 circuitry.
     </description>
     <ingredients>
       <li>
@@ -58,6 +82,22 @@
         </filter>
         <count>75</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Circuitry</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
     </ingredients>
     <products>
       <MD2SpawnMiningDroid>1</MD2SpawnMiningDroid>
@@ -65,6 +105,8 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Metal</li>
+        <li>Silver</li>
+        <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
@@ -80,7 +122,10 @@
     <label>make grower droid</label>
     <description>
       Constructs a grower droid.
-      --Requires 75 metal.
+      Requires:
+        --75 metal.
+        --75 silver.
+        --25 circuitry.
     </description>
     <ingredients>
       <li>
@@ -91,6 +136,22 @@
         </filter>
         <count>75</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Circuitry</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
     </ingredients>
     <products>
       <MD2SpawnGrowerDroid>1</MD2SpawnGrowerDroid>
@@ -98,6 +159,8 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Metal</li>
+        <li>Silver</li>
+        <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
@@ -113,7 +176,10 @@
     <label>make medic droid</label>
     <description>
       Constructs a medic droid.
-      --Requires 75 metal.
+      Requires:
+        --75 metal.
+        --75 silver.
+        --35 circuitry.
     </description>
     <ingredients>
       <li>
@@ -124,6 +190,22 @@
         </filter>
         <count>75</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Circuitry</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
     </ingredients>
     <products>
       <MD2SpawnMedicDroid>1</MD2SpawnMedicDroid>
@@ -131,6 +213,8 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Metal</li>
+        <li>Silver</li>
+        <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
@@ -146,7 +230,10 @@
     <label>make builder droid</label>
     <description>
       Constructs a builder droid.
-      --Requires 75 metal.
+      Requires:
+        --75 metal.
+        --60 silver.
+        --20 circuitry.
     </description>
     <ingredients>
       <li>
@@ -157,6 +244,22 @@
         </filter>
         <count>75</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Circuitry</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
     </ingredients>
     <products>
       <MD2SpawnBuilderDroid>1</MD2SpawnBuilderDroid>
@@ -164,6 +267,8 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Metal</li>
+        <li>Silver</li>
+        <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
@@ -179,7 +284,10 @@
     <label>make crafting droid</label>
     <description>
       Constructs a crafting droid.
-      --Requires 75 metal.
+      Requires:
+        --75 metal.
+        --75 silver.
+        --25 circuitry.
     </description>
     <ingredients>
       <li>
@@ -190,6 +298,22 @@
         </filter>
         <count>75</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Circuitry</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
     </ingredients>
     <products>
       <MD2SpawnCraftingDroid>1</MD2SpawnCraftingDroid>
@@ -197,6 +321,8 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Metal</li>
+        <li>Silver</li>
+        <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
@@ -212,7 +338,10 @@
     <label>make cooking droid</label>
     <description>
       Constructs a cooking droid.
-      --Requires 75 metal.
+      Requires:
+        --75 metal.
+        --60 silver.
+        --20 circuitry.
     </description>
     <ingredients>
       <li>
@@ -223,6 +352,22 @@
         </filter>
         <count>75</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Circuitry</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
     </ingredients>
     <products>
       <MD2SpawnCookingDroid>1</MD2SpawnCookingDroid>
@@ -230,6 +375,62 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Metal</li>
+        <li>Silver</li>
+        <li>MD2Circuitry</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillGains>
+      <li>
+        <skill>Crafting</skill>
+        <xp>150</xp>
+      </li>
+    </skillGains>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BaseDroidRecipe">
+    <defName>MD2MakeBasicCombatDroid</defName>
+    <label>make basic combat droid</label>
+    <description>
+      Constructs a basic combat droid.
+      Requires:
+        --75 metal.
+        --75 silver.
+        --35 circuitry.
+    </description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Metal</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Circuitry</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2SpawnBasicCombatDroid>1</MD2SpawnBasicCombatDroid>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Metal</li>
+        <li>Silver</li>
+        <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>

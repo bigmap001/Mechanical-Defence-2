@@ -71,6 +71,7 @@
     <allowedWorkTypeDefs>
       <li>Firefighter</li>
       <li>Construction</li>
+      <li>Repair</li>
     </allowedWorkTypeDefs>
     <backstoryName>BuilderDroid</backstoryName>
   </PawnKindDef>
@@ -93,6 +94,16 @@
       <li>Cooking</li>
     </allowedWorkTypeDefs>
     <backstoryName>CookingDroid</backstoryName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
+    <defName>MD2BasicCombatDroid</defName>
+    <label>Basic Combat Droid</label>
+    <allowedWorkTypeDefs>
+      <li>Firefighter</li>
+      <li>Hunting</li>
+    </allowedWorkTypeDefs>
+    <backstoryName>BasicCombatDroid</backstoryName>
   </PawnKindDef>
 
   <!-- <PawnKindDef ParentName="BaseDroidKind">
