@@ -103,6 +103,7 @@
       <li>Firefighter</li>
       <li>Hunting</li>
     </allowedWorkTypeDefs>
+    <isFighter>true</isFighter>
     <backstoryName>BasicCombatDroid</backstoryName>
   </PawnKindDef>
 

@@ -75,7 +75,7 @@
 
   <ThingDef ParentName="BuildingBase">
     <defName>MechWallRecessed</defName>
-    <eType>Floor</eType>
+    <eType>BuildingInert</eType>
     <label>Recessed Mechanical Wall</label>
     <thingClass>MechanicalDefence2.MechWall.Building_MechWallRecessed</thingClass>
     <category>Building</category>
@@ -85,15 +85,15 @@
     <blueprintgraphicPathSingle>Things/Building/Linked/Wall_Blueprint_Atlas</blueprintgraphicPathSingle>
     <statBases>
       <MaxHealth>300</MaxHealth>
-      <Flammability>1.0</Flammability>
+      <Flammability>0</Flammability>
     </statBases>
     <combatTargetBuilding>false</combatTargetBuilding>
-    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <altitudeLayer>Waist</altitudeLayer>
     <passability>Standable</passability>
     <madeFromStuff>true</madeFromStuff>
     <castEdgeShadows>false</castEdgeShadows>
     <menuHidden>true</menuHidden>
-    <fillPercent>1</fillPercent>
+    <fillPercent>0.1</fillPercent>
     <coversFloor>true</coversFloor>
     <placingDraggableDimensions>1</placingDraggableDimensions>
     <tickerType>Never</tickerType>
