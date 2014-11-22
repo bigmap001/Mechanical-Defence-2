@@ -40,7 +40,7 @@
       </li>
       <li>
         <recipeDef>MD2MakeCrematoriusDroid</recipeDef>
-        <!--<researchDef>MD2BasicCombatDroid</researchDef>-->
+        <researchDef>MD2CrematoriusDroid</researchDef>
       </li>
     </recipesInfo>
   </ThingDef>

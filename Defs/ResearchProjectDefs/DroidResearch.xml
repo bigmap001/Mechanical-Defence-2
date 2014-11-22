@@ -125,5 +125,18 @@ Unlocks the Droid Assembly. This is a workbench which is where all your droids w
       <li>MD2DroidCharger</li>
     </prerequisites>
   </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD2CrematoriusDroid</defName>
+    <label>MD2 Crematorius</label>
+    <description>
+      Unlocks the crematorius to be available for construction at the Droid Assembly. This droid is a hulking construct which roams the battlefield after the fight and devours corpses. It can be set to strip or not strip bodies.
+    </description>
+    <totalCost>500</totalCost>
+    <prerequisites>
+      <li>MD2DroidCharger</li>
+      <li>Cremation</li>
+    </prerequisites>
+  </ResearchProjectDef>
   
 </ResearchProjectDefs>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <JobDefs>
   <JobDef>
-    <defName>MD2CDroidCremateCorpse</defName>
+    <defName>MD2DroidCremateCorpse</defName>
     <driverClass>MechanicalDefence2.Droids.DroidCremateJob</driverClass>
     <reportString>Cremating TargetA.</reportString>
   </JobDef>
