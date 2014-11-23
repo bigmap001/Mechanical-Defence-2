@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ThingDefs>
+  <ThingDef Class="MechanicalDefence2.Miner.ResourceInfoDef">
+    <defName>ResourceList</defName>
+    <thingClass>MechanicalDefence2.Miner.ResourceInfoDef</thingClass>
+    <ResourceInfoList>
+      <!-- ::ENTRY FORMAT::
+        label -> this is the label for the entry, which is what is displayed as the currently selected resource.
+        Materials are given a range for the amount to produce - this is randomly generated each time.
+        spawnRangeMin -> The minimum amount of this resource that is produced each time.
+        spawnRangeMax -> The maximum amount of this resource that is produced each time.
+        resourceDefName -> This is the defName of the resource to produce - MAKE SURE THIS IS CORRECT ! IF IT IS NOT THE GAME WILL NOT START !
+        fissureSizeRequired -> This is the size of fissure required for the resource. 
+        -->
+      <li>
+        <label>Metal</label>
+        <spawnRangeMin>7</spawnRangeMin>
+        <spawnRangeMax>18</spawnRangeMax>
+        <resourceDefName>Metal</resourceDefName>
+        <fissureSizeRequired>Small</fissureSizeRequired>
+      </li>
+      <li>
+        <label>Rock Chunks</label>
+        <spawnRangeMin>1</spawnRangeMin>
+        <spawnRangeMax>1</spawnRangeMax>
+        <resourceDefName>ChunkRock</resourceDefName>
+        <fissureSizeRequired>Small</fissureSizeRequired>
+      </li>
+      <li>
+        <label>Silver</label>
+        <spawnRangeMin>7</spawnRangeMin>
+        <spawnRangeMax>18</spawnRangeMax>
+        <resourceDefName>Silver</resourceDefName>
+        <fissureSizeRequired>Medium</fissureSizeRequired>
+      </li>
+      <li>
+        <label>Gold</label>
+        <spawnRangeMin>2</spawnRangeMin>
+        <spawnRangeMax>7</spawnRangeMax>
+        <resourceDefName>Gold</resourceDefName>
+        <fissureSizeRequired>Medium</fissureSizeRequired>
+      </li>
+      <li>
+        <label>Plasteel</label>
+        <spawnRangeMin>1</spawnRangeMin>
+        <spawnRangeMax>5</spawnRangeMax>
+        <resourceDefName>Plasteel</resourceDefName>
+        <fissureSizeRequired>Large</fissureSizeRequired>
+      </li>
+      <li>
+        <label>Uranium</label>
+        <spawnRangeMin>2</spawnRangeMin>
+        <spawnRangeMax>6</spawnRangeMax>
+        <resourceDefName>Uranium</resourceDefName>
+        <fissureSizeRequired>Large</fissureSizeRequired>
+      </li>
+    </ResourceInfoList>
+  </ThingDef>
+    
+</ThingDefs>
