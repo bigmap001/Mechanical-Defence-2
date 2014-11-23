@@ -94,11 +94,6 @@
     <description>An intelligent droid.</description>
     <uiIconPath>Things/Pawn/Humanoid/UI/IconHuman</uiIconPath>
     <standardHeadGraphicPathMulti>Pawns/Droid/Head/DroidHead</standardHeadGraphicPathMulti>
-    <sunShadowInfo>
-      <baseWidth>0.4</baseWidth>
-      <baseHeight>0.4</baseHeight>
-      <tallness>0.8</tallness>
-    </sunShadowInfo>
     <drawGUIOverlay>false</drawGUIOverlay>
     <race>
       <thinkTree>MD2DroidThinkTree</thinkTree>
