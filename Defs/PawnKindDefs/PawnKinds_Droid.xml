@@ -115,6 +115,7 @@
       <li>Firefighter</li>
     </allowedWorkTypeDefs>
     <backstoryName>CrematoriusDroid</backstoryName>
+    <standardBodyGraphicPathMulti>Pawns/Droid/Crematorius/Cremabody</standardBodyGraphicPathMulti>
   </PawnKindDef>
 
   <!-- <PawnKindDef ParentName="BaseDroidKind">
