@@ -94,32 +94,6 @@
     <description>An intelligent droid.</description>
     <uiIconPath>Things/Pawn/Humanoid/UI/IconHuman</uiIconPath>
     <standardHeadGraphicPathMulti>Pawns/Droid/Head/DroidHead</standardHeadGraphicPathMulti>
-    <sunShadowInfo>
-      <baseWidth>0.4</baseWidth>
-      <baseHeight>0.4</baseHeight>
-      <tallness>0.8</tallness>
-    </sunShadowInfo>
-    <statBases>
-      <MoveSpeed>4.61</MoveSpeed>
-      <Flammability>0.0</Flammability>
-      <MaxHealth>100</MaxHealth>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <cooldownTicks>100</cooldownTicks>
-        <meleeDamageAmount>10</meleeDamageAmount>
-        <meleeDamageDef>Cut</meleeDamageDef>
-        <linkedBodyPartsGroup>LeftKnifeProtrusion</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <cooldownTicks>100</cooldownTicks>
-        <meleeDamageAmount>10</meleeDamageAmount>
-        <meleeDamageDef>Cut</meleeDamageDef>
-        <linkedBodyPartsGroup>RightKnifeProtrusion</linkedBodyPartsGroup>
-      </li>
-    </verbs>
     <drawGUIOverlay>false</drawGUIOverlay>
     <race>
       <thinkTree>MD2DroidThinkTree</thinkTree>
@@ -137,17 +111,23 @@
       <bodySize>1</bodySize>
       <healthScale>1</healthScale>
       <diet>Omnivorous</diet>
-      <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
-      <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
-      <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
     </race>
   </ThingDef>
 
   <ThingDef ParentName="BaseDroid" Class="MechanicalDefence2.Droids.DroidThingDef">
     <defName>CrematoriusDroidRace</defName>
     <thingClass>MechanicalDefence2.Droids.Crematorius</thingClass>
+    <standardHeadGraphicPathMulti>Pawns/Droid/Crematorius/Cremahead</standardHeadGraphicPathMulti>
+    <sunShadowInfo>
+      <baseWidth>0.7</baseWidth>
+      <baseHeight>0.8</baseHeight>
+      <tallness>0.9</tallness>
+    </sunShadowInfo>
+    <statBases>
+      <MoveSpeed>3.5</MoveSpeed>
+      <Flammability>0.0</Flammability>
+      <MaxHealth>120</MaxHealth>
+    </statBases>
     <race>
       <thinkTree>MD2CrematoriusDroidThinkTree</thinkTree>
     </race>
