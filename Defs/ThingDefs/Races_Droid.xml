@@ -99,27 +99,6 @@
       <baseHeight>0.4</baseHeight>
       <tallness>0.8</tallness>
     </sunShadowInfo>
-    <statBases>
-      <MoveSpeed>4.61</MoveSpeed>
-      <Flammability>0.0</Flammability>
-      <MaxHealth>100</MaxHealth>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <cooldownTicks>100</cooldownTicks>
-        <meleeDamageAmount>10</meleeDamageAmount>
-        <meleeDamageDef>Cut</meleeDamageDef>
-        <linkedBodyPartsGroup>LeftKnifeProtrusion</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <cooldownTicks>100</cooldownTicks>
-        <meleeDamageAmount>10</meleeDamageAmount>
-        <meleeDamageDef>Cut</meleeDamageDef>
-        <linkedBodyPartsGroup>RightKnifeProtrusion</linkedBodyPartsGroup>
-      </li>
-    </verbs>
     <drawGUIOverlay>false</drawGUIOverlay>
     <race>
       <thinkTree>MD2DroidThinkTree</thinkTree>
