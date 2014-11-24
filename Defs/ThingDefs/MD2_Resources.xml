@@ -76,6 +76,6 @@
     <storeCategories>
       <li>Manufactured</li>
     </storeCategories>
-    <stackLimit>25</stackLimit>
+    <stackLimit>50</stackLimit>
   </ThingDef>
 </Resources>
