@@ -71,7 +71,7 @@
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <useStandardHealth>false</useStandardHealth>
-    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
     <baseMarketValue>10</baseMarketValue>
     <storeCategories>
       <li>Manufactured</li>
