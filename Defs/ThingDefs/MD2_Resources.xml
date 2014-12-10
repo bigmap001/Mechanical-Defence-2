@@ -76,6 +76,25 @@
     <storeCategories>
       <li>Manufactured</li>
     </storeCategories>
-    <stackLimit>25</stackLimit>
+    <stackLimit>75</stackLimit>
   </ThingDef>
+
+  <!-- Coal -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MD2Coal</defName>
+    <label>coal</label>
+    <description>A lump of coal.</description>
+    <graphicPathSingle>Default</graphicPathSingle>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useStandardHealth>false</useStandardHealth>
+    <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+    <baseMarketValue>20</baseMarketValue>
+    <storeCategories>
+      <li>ResourcesRaw</li>
+    </storeCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+
 </Resources>
