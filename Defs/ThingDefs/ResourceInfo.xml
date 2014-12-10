@@ -15,45 +15,45 @@
         -->
       <li>
         <label>Metal</label>
-        <spawnRangeMin>7</spawnRangeMin>
-        <spawnRangeMax>18</spawnRangeMax>
+        <spawnRangeMin>15</spawnRangeMin>
+        <spawnRangeMax>40</spawnRangeMax>
         <resourceDefName>Metal</resourceDefName>
         <fissureSizeRequired>Small</fissureSizeRequired>
       </li>
       <li>
-        <label>Rock Chunks</label>
-        <spawnRangeMin>1</spawnRangeMin>
-        <spawnRangeMax>1</spawnRangeMax>
-        <resourceDefName>ChunkRock</resourceDefName>
-        <fissureSizeRequired>Small</fissureSizeRequired>
-      </li>
-      <li>
         <label>Silver</label>
-        <spawnRangeMin>7</spawnRangeMin>
-        <spawnRangeMax>18</spawnRangeMax>
+        <spawnRangeMin>10</spawnRangeMin>
+        <spawnRangeMax>30</spawnRangeMax>
         <resourceDefName>Silver</resourceDefName>
         <fissureSizeRequired>Medium</fissureSizeRequired>
       </li>
       <li>
         <label>Gold</label>
-        <spawnRangeMin>2</spawnRangeMin>
-        <spawnRangeMax>7</spawnRangeMax>
+        <spawnRangeMin>10</spawnRangeMin>
+        <spawnRangeMax>25</spawnRangeMax>
         <resourceDefName>Gold</resourceDefName>
         <fissureSizeRequired>Medium</fissureSizeRequired>
       </li>
       <li>
         <label>Plasteel</label>
-        <spawnRangeMin>1</spawnRangeMin>
-        <spawnRangeMax>5</spawnRangeMax>
+        <spawnRangeMin>5</spawnRangeMin>
+        <spawnRangeMax>10</spawnRangeMax>
         <resourceDefName>Plasteel</resourceDefName>
         <fissureSizeRequired>Large</fissureSizeRequired>
       </li>
       <li>
         <label>Uranium</label>
-        <spawnRangeMin>2</spawnRangeMin>
-        <spawnRangeMax>6</spawnRangeMax>
+        <spawnRangeMin>5</spawnRangeMin>
+        <spawnRangeMax>11</spawnRangeMax>
         <resourceDefName>Uranium</resourceDefName>
         <fissureSizeRequired>Large</fissureSizeRequired>
+      </li>
+      <li>
+        <label>Coal</label>
+        <spawnRangeMin>15</spawnRangeMin>
+        <spawnRangeMax>24</spawnRangeMax>
+        <resourceDefName>MD2Coal</resourceDefName>
+        <fissureSizeRequired>Medium</fissureSizeRequired>
       </li>
     </ResourceInfoList>
   </ThingDef>
