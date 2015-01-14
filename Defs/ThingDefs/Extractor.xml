@@ -16,16 +16,17 @@
     <label>Ore Extractor</label>
     <description>This machine digs deep into the ground and extracts metals from the earth.</description>
     <thingClass>MechanicalDefence2.Miner.Extractor</thingClass>
-    <graphicPathSingle>Buildings/Extractor/Extractor</graphicPathSingle>
+    <graphicPath>Buildings/Extractor/Extractor</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <uiIconPath>Buildings/Extractor/Extractor</uiIconPath>
     <altitudeLayer>BuildingTall</altitudeLayer>
     <passability>Impassable</passability>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.1</fillPercent>
-    <hasInteractionSquare>True</hasInteractionSquare>
+    <hasInteractionCell>True</hasInteractionCell>
     <interactionSquareOffset>(0,0,-2)</interactionSquareOffset>
     <statBases>
-      <WorkToBuild>3500</WorkToBuild>
+      <WorkToMake>3500</WorkToMake>
       <MaxHealth>450</MaxHealth>
       <Flammability>1.0</Flammability>
     </statBases>
@@ -38,12 +39,12 @@
     </comps>
     <size>(3,3)</size>
     <costList>
-      <Metal>1000</Metal>
+      <Steel>1000</Steel>
     </costList>
-    <overdraw>false</overdraw>
-    <placementRestricters>
+    <graphicOverdraw>false</graphicOverdraw>
+    <placeWorkers>
       <li>MechanicalDefence2.Miner.PlacementRestrictor_OnFissure</li>
-    </placementRestricters>
+    </placeWorkers>
     <killedLeavings>
       <ChunkSlag>3</ChunkSlag>
     </killedLeavings>

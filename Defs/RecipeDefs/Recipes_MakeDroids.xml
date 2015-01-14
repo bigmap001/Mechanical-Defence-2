@@ -4,8 +4,8 @@
     <jobString>Constructing droid.</jobString>
     <workAmount>1000</workAmount>
     <workSpeedStat>MD2BuildDroidSpeed</workSpeedStat>
-    <workEffect>UseMetalRefinery</workEffect>
-    <sustainerSoundDef>Interact_ConstructMetal</sustainerSoundDef>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Interact_ConstructMetal</soundWorking>
   </RecipeDef>
   
   
@@ -15,7 +15,7 @@
     <description>
       Constructs a logistics droid.
       Requires:
-        --75 metal.
+        --75 Steel.
         --30 silver.
         --10 circuitry.
     </description>
@@ -23,7 +23,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Metal</li>
+						<li>Steel</li>
 					</thingDefs>
 				</filter>
 				<count>75</count>
@@ -50,16 +50,13 @@
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Metal</li>
+				<li>Steel</li>
         <li>Silver</li>
         <li>MD2Circuitry</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<skillGains>
-			<li>
-				<skill>Crafting</skill>
-				<xp>130</xp>
-			</li>
+        <Crafting>130</Crafting>
 		</skillGains>
 	</RecipeDef>
 
@@ -69,7 +66,7 @@
     <description>
       Constructs a mining droid.
       Requires:
-        --75 metal.
+        --75 Steel.
         --60 silver.
         --20 circuitry.
     </description>
@@ -77,7 +74,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Metal</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>75</count>
@@ -104,16 +101,13 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Metal</li>
+        <li>Steel</li>
         <li>Silver</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>150</xp>
-      </li>
+      <Crafting>150</Crafting>
     </skillGains>
   </RecipeDef>
 
@@ -123,7 +117,7 @@
     <description>
       Constructs a grower droid.
       Requires:
-        --75 metal.
+        --75 Steel.
         --75 silver.
         --25 circuitry.
     </description>
@@ -131,7 +125,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Metal</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>75</count>
@@ -158,16 +152,13 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Metal</li>
+        <li>Steel</li>
         <li>Silver</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>150</xp>
-      </li>
+      <Crafting>150</Crafting>
     </skillGains>
   </RecipeDef>
 
@@ -177,7 +168,7 @@
     <description>
       Constructs a medic droid.
       Requires:
-        --75 metal.
+        --75 Steel.
         --75 silver.
         --35 circuitry.
     </description>
@@ -185,7 +176,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Metal</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>75</count>
@@ -212,16 +203,13 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Metal</li>
+        <li>Steel</li>
         <li>Silver</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>150</xp>
-      </li>
+      <Crafting>150</Crafting>
     </skillGains>
   </RecipeDef>
 
@@ -231,7 +219,7 @@
     <description>
       Constructs a builder droid.
       Requires:
-        --75 metal.
+        --75 Steel.
         --60 silver.
         --20 circuitry.
     </description>
@@ -239,7 +227,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Metal</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>75</count>
@@ -266,16 +254,13 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Metal</li>
+        <li>Steel</li>
         <li>Silver</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>150</xp>
-      </li>
+      <Crafting>150</Crafting>
     </skillGains>
   </RecipeDef>
 
@@ -285,7 +270,7 @@
     <description>
       Constructs a crafting droid.
       Requires:
-        --75 metal.
+        --75 Steel.
         --75 silver.
         --25 circuitry.
     </description>
@@ -293,7 +278,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Metal</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>75</count>
@@ -320,16 +305,13 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Metal</li>
+        <li>Steel</li>
         <li>Silver</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>150</xp>
-      </li>
+      <Crafting>150</Crafting>
     </skillGains>
   </RecipeDef>
 
@@ -339,7 +321,7 @@
     <description>
       Constructs a cooking droid.
       Requires:
-        --75 metal.
+        --75 Steel.
         --60 silver.
         --20 circuitry.
     </description>
@@ -347,7 +329,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Metal</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>75</count>
@@ -374,16 +356,13 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Metal</li>
+        <li>Steel</li>
         <li>Silver</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>150</xp>
-      </li>
+      <Crafting>150</Crafting>
     </skillGains>
   </RecipeDef>
 
@@ -393,7 +372,7 @@
     <description>
       Constructs a basic combat droid.
       Requires:
-        --75 metal.
+        --75 Steel.
         --75 silver.
         --35 circuitry.
     </description>
@@ -401,7 +380,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Metal</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>75</count>
@@ -428,16 +407,13 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Metal</li>
+        <li>Steel</li>
         <li>Silver</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>150</xp>
-      </li>
+      <Crafting>150</Crafting>
     </skillGains>
   </RecipeDef>
 
@@ -447,7 +423,7 @@
     <description>
       Constructs a cremation droid.
       Requires:
-      --75 metal.
+      --75 Steel.
       --75 silver.
       --35 circuitry.
     </description>
@@ -455,7 +431,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Metal</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>75</count>
@@ -482,16 +458,13 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Metal</li>
+        <li>Steel</li>
         <li>Silver</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>150</xp>
-      </li>
+      <Crafting>150</Crafting>
     </skillGains>
   </RecipeDef>
 

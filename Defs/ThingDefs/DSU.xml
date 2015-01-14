@@ -18,24 +18,25 @@
 		<eType>BuildingComplex</eType>
 		<label>Deep Storage Unit Mk.I</label>
 		<thingClass>MechanicalDefence2.Building_DeepStorage</thingClass>
-    <graphicPathSingle>Buildings/Deep Storage/DSU</graphicPathSingle>
+    <graphicPath>Buildings/Deep Storage/DSU</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
 		<altitudeLayer>Waist</altitudeLayer>
 		<passability>Impassable</passability>
 		<castEdgeShadows>false</castEdgeShadows>
     <statBases>
     <MaxHealth>300</MaxHealth>
     <Flammability>1.0</Flammability>
-    <WorkToBuild>1200</WorkToBuild>
+    <WorkToMake>1200</WorkToMake>
     </statBases>
     <maxStorage>1000</maxStorage>
 		<description>A contained unit for storing large amounts of items</description>
 		<size>(2,1)</size>
     <tickerType>Normal</tickerType>
 		<costList>
-      <Metal>100</Metal>
+      <Steel>100</Steel>
       <WoodLog>20</WoodLog>
 		</costList>
-		<overdraw>false</overdraw>
+    <graphicOverdraw>false</graphicOverdraw>
 		<filthLeavings>
       <SlagRubble>2</SlagRubble>
 		</filthLeavings>
@@ -45,7 +46,6 @@
 			<allowances>
 				<categories>
 					<li>ResourcesRaw</li>
-          <li>FoodRaw</li>
           <li>Manufactured</li>
 				</categories>
 			</allowances>
@@ -78,24 +78,25 @@
     <eType>BuildingComplex</eType>
     <label>Deep Storage Unit Mk.II</label>
     <thingClass>MechanicalDefence2.Building_DeepStorage</thingClass>
-    <graphicPathSingle>Buildings/Deep Storage/DSU</graphicPathSingle>
+    <graphicPath>Buildings/Deep Storage/DSU</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <altitudeLayer>Waist</altitudeLayer>
     <passability>Impassable</passability>
     <castEdgeShadows>false</castEdgeShadows>
     <statBases>
       <MaxHealth>400</MaxHealth>
       <Flammability>1.0</Flammability>
-      <WorkToBuild>2400</WorkToBuild>
+      <WorkToMake>2400</WorkToMake>
     </statBases>
     <maxStorage>1500</maxStorage>
     <description>A contained unit for storing large amounts of items</description>
     <size>(2,1)</size>
     <tickerType>Normal</tickerType>
     <costList>
-      <Metal>150</Metal>
+      <Steel>150</Steel>
       <WoodLog>30</WoodLog>
     </costList>
-    <overdraw>false</overdraw>
+    <graphicOverdraw>false</graphicOverdraw>
     <filthLeavings>
       <SlagRubble>2</SlagRubble>
     </filthLeavings>
@@ -105,7 +106,6 @@
         <allowances>
           <categories>
             <li>ResourcesRaw</li>
-            <li>FoodRaw</li>
             <li>Manufactured</li>
           </categories>
         </allowances>
@@ -138,24 +138,25 @@
     <eType>BuildingComplex</eType>
     <label>Deep Storage Unit Mk.III</label>
     <thingClass>MechanicalDefence2.Building_DeepStorage</thingClass>
-    <graphicPathSingle>Buildings/Deep Storage/DSU</graphicPathSingle>
+    <graphicPath>Buildings/Deep Storage/DSU</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <altitudeLayer>Waist</altitudeLayer>
     <passability>Impassable</passability>
     <castEdgeShadows>false</castEdgeShadows>
     <statBases>
       <MaxHealth>500</MaxHealth>
       <Flammability>1.0</Flammability>
-      <WorkToBuild>3400</WorkToBuild>
+      <WorkToMake>3400</WorkToMake>
     </statBases>
     <maxStorage>2250</maxStorage>
     <description>A contained unit for storing large amounts of items</description>
     <size>(2,1)</size>
     <tickerType>Normal</tickerType>
     <costList>
-      <Metal>200</Metal>
+      <Steel>200</Steel>
       <WoodLog>40</WoodLog>
     </costList>
-    <overdraw>false</overdraw>
+    <graphicOverdraw>false</graphicOverdraw>
     <filthLeavings>
       <SlagRubble>2</SlagRubble>
     </filthLeavings>
@@ -165,7 +166,6 @@
         <allowances>
           <categories>
             <li>ResourcesRaw</li>
-            <li>FoodRaw</li>
             <li>Manufactured</li>
           </categories>
         </allowances>

@@ -10,8 +10,11 @@
     <workAmount>300</workAmount>
     <workSpeedStat>StonecuttingSpeed</workSpeedStat>
     <efficiencyStat>StonecuttingEfficiency</efficiencyStat>
-    <workEffect>UseMetalRefinery</workEffect>
-    <sustainerSoundDef>Recipe_UseMetalRefinery</sustainerSoundDef>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_UseMetalRefinery</soundWorking>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -31,10 +34,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>50</xp>
-      </li>
+      <Crafting>50</Crafting>
     </skillGains>
   </RecipeDef>
 
@@ -46,13 +46,20 @@
     <workAmount>500</workAmount>
     <workSpeedStat>StonecuttingSpeed</workSpeedStat>
     <efficiencyStat>StonecuttingEfficiency</efficiencyStat>
-    <workEffect>CutStone</workEffect>
-    <sustainerSoundDef>Recipe_MakeStoneBlocks</sustainerSoundDef>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>ChunkRock</li>
+            <li>ChunkSandstone</li>
+            <li>ChunkGranite</li>
+            <li>ChunkLimestone</li>
+            <li>ChunkSlate</li>
+            <li>ChunkMarble</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -63,14 +70,15 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>ChunkRock</li>
+        <li>ChunkSandstone</li>
+        <li>ChunkGranite</li>
+        <li>ChunkLimestone</li>
+        <li>ChunkSlate</li>
+        <li>ChunkMarble</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>120</xp>
-      </li>
+      <Crafting>120</Crafting>
     </skillGains>
   </RecipeDef>
 
@@ -82,8 +90,11 @@
     <workAmount>600</workAmount>
     <workSpeedStat>MD2SolderingSpeed</workSpeedStat>
     <efficiencyStat>MD2SolderingEfficiency</efficiencyStat>
-    <workEffect>Repair</workEffect>
-    <sustainerSoundDef>Interact_Repair</sustainerSoundDef>
+    <effectWorking>Repair</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -104,7 +115,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Metal</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>30</count>
@@ -115,16 +126,13 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Metal</li>
+        <li>Steel</li>
         <li>Silver</li>
         <li>MD2Silicon</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>150</xp>
-      </li>
+      <Crafting>150</Crafting>
     </skillGains>
   </RecipeDef>
 </RecipeDefs>

@@ -26,7 +26,8 @@
     <label>Fissure</label>
     <defName>mipFissure</defName>
     <thingClass>MechanicalDefence2.Miner.FissureClass</thingClass>
-    <graphicPathSingle>Terrain/Fissure</graphicPathSingle>
+    <graphicPath>Terrain/Fissure</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <shaderType>Transparent</shaderType>
     <altitudeLayer>Floor</altitudeLayer>
     <destroyable>false</destroyable>
@@ -34,7 +35,7 @@
     <selectable>true</selectable>
     <description>A fissure that cuts deep into the earth.</description>
     <size>(1,1)</size>
-    <overdraw>false</overdraw>
+    <graphicOverdraw>false</graphicOverdraw>
     <neverOverlapFloors>true</neverOverlapFloors>
     <blockPlants>true</blockPlants>
   
@@ -46,7 +47,8 @@
     <label>Fissure Generator</label>
     <description>A powerful machine designed to crack open the earth and create a deep fissure which can be used to can access to the lower layers of the planet's crust.</description>
     <thingClass>MechanicalDefence2.Miner.FissureGenerator</thingClass>
-    <graphicPathSingle>Buildings/FissureGenerator/FissureGenerator</graphicPathSingle>
+    <graphicPath>Buildings/FissureGenerator/FissureGenerator</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <uiIconPath>Buildings/FissureGenerator/FissureGenerator</uiIconPath>
     <altitudeLayer>Waist</altitudeLayer>
     <passability>Impassable</passability>
@@ -54,14 +56,14 @@
     <fillPercent>1</fillPercent>
     <statBases>
       <MaxHealth>350</MaxHealth>
-      <WorkToBuild>750</WorkToBuild>
+      <WorkToMake>750</WorkToMake>
       <Flammability>1.0</Flammability>
       <Beauty>-6</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
     <size>(3,3)</size>
     <costList>
-      <Metal>250</Metal>
+      <Steel>250</Steel>
     </costList>
     <comps>
       <li>
@@ -69,7 +71,7 @@
         <basePowerConsumption>750</basePowerConsumption>
       </li>
     </comps>
-    <overdraw>false</overdraw>
+    <graphicOverdraw>false</graphicOverdraw>
     <killedLeavings>
       <ChunkSlag>3</ChunkSlag>
     </killedLeavings>

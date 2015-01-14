@@ -11,13 +11,14 @@
     <repairEffect>Repair</repairEffect>
   </ThingDef>
 
-  <!-- Coal Feeder-->
+  <!-- Coal Feeder -->
   <ThingDef ParentName="BuildingBase">
     <defName>MD2CoalFeeder</defName>
     <eType>BuildingComplex</eType>
     <label>coal feeder</label>
     <thingClass>MechanicalDefence2.PowerGen.CoalFeeder</thingClass>
-    <graphicPathSingle>Things/Building/Production/Hopper</graphicPathSingle>
+    <graphicPath>Buildings/CoalPower/CoalFeeder</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <altitudeLayer>Waist</altitudeLayer>
     <passability>Impassable</passability>
     <building>
@@ -44,13 +45,13 @@
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>1</fillPercent>
     <statBases>
-      <WorkToBuild>330</WorkToBuild>
+      <WorkToMake>330</WorkToMake>
       <MaxHealth>100</MaxHealth>
       <Flammability>1.0</Flammability>
     </statBases>
     <description>Feeds coal into a coal burner.</description>
     <costList>
-      <Metal>40</Metal>
+      <Steel>40</Steel>
     </costList>
     <tickerType>Never</tickerType>
     <rotatable>true</rotatable>
@@ -64,35 +65,37 @@
     <designationCategory>Power</designationCategory>
     <staticSunShadowHeight>0.3</staticSunShadowHeight>
     <itemSurface>true</itemSurface>
-    <placementRestricters>
+    <PlaceWorkers>
       <li>MechanicalDefence2.PowerGen.PlacementRestricter_NextToCoalPlant</li>
-    </placementRestricters>
+    </PlaceWorkers>
+    <researchPrerequisite>MD2DroidCharger</researchPrerequisite>
   </ThingDef>
-  
+
   <!-- Coal Burner-->
   <ThingDef ParentName="BuildingBase">
     <defName>MD2CoalBurner</defName>
     <eType>BuildingComplex</eType>
     <label>coal burner</label>
     <thingClass>MechanicalDefence2.PowerGen.CoalPowerPlant</thingClass>
-    <graphicPathSingle>Default</graphicPathSingle>
+    <graphicPath>Buildings/CoalPower/CoalBurner</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <altitudeLayer>BuildingTall</altitudeLayer>
     <passability>Impassable</passability>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>1</fillPercent>
     <statBases>
       <MaxHealth>550</MaxHealth>
-      <WorkToBuild>4000</WorkToBuild>
+      <WorkToMake>4000</WorkToMake>
       <Flammability>1.0</Flammability>
       <Beauty>-60</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
     <description>Produces electricity from burning coal. Coal is fed into it via a coal feeder placed on the side.</description>
-    <size>(6,6)</size>
+    <size>(2,3)</size>
     <costList>
-      <Metal>450</Metal>
+      <Steel>650</Steel>
     </costList>
-    <overdraw>false</overdraw>
+    <graphicOverdraw>false</graphicOverdraw>
     <comps>
       <li>
         <compClass>CompPowerTrader</compClass>

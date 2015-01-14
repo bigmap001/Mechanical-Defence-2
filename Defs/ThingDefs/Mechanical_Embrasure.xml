@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-	<ThingDef Name="BuildingBase" Abstract="True">
-		<category>Building</category>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-		<selectable>true</selectable>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<repairEffect>Repair</repairEffect>
-	</ThingDef>
-  
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+
   <ThingDef ParentName="BuildingBase" Name="WallBase" Abstract="True">
     <defName>Wall</defName>
     <eType>Wall</eType>
@@ -17,9 +17,8 @@
     <category>Building</category>
     <thingClass>Building</thingClass>
     <description>An impassable wall. Capable of holding up a roof.</description>
-    <!--<graphicPathFolderAppearances>Things/Building/Linked/Wall</graphicPathFolderAppearances>-->
     <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
-    <blueprintgraphicPathSingle>Things/Building/Linked/Wall_Blueprint_Atlas</blueprintgraphicPathSingle>
+    <blueprintGraphicPath>Things/Building/Linked/Wall_Blueprint_Atlas</blueprintGraphicPath>
     <statBases>
       <MaxHealth>300</MaxHealth>
       <Flammability>0</Flammability>
@@ -33,12 +32,16 @@
     <tickerType>Never</tickerType>
     <rotatable>false</rotatable>
     <selectable>true</selectable>
-    <neverMultiSelect>true</neverMultiSelect>
+    <neverMultiSelect>false</neverMultiSelect>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <holdsRoof>false</holdsRoof>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <blockLight>true</blockLight>
-    <madeFromStuff>true</madeFromStuff>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
     <building>
       <ignoreNeedsPower>true</ignoreNeedsPower>
     </building>
@@ -51,28 +54,31 @@
     <linkDrawerType>CornerFiller</linkDrawerType>
     <linkFlags>
       <li>Wall</li>
+      <li>Rock</li>
     </linkFlags>
     <filthLeavings>
       <SlagRubble>2</SlagRubble>
     </filthLeavings>
+
   </ThingDef>
-	
-	<ThingDef ParentName="WallBase">
-		<defName>MD2MechEmbrasure</defName>
-		<eType>Wall</eType>
-		<label>mechanical embrasure</label>
+
+  <ThingDef ParentName="WallBase">
+    <defName>MD2MechEmbrasure</defName>
+    <eType>Wall</eType>
+    <label>mechanical embrasure</label>
     <thingClass>MechanicalDefence2.MechWall.Building_MechWallEmbrasure</thingClass>
-		<description>A mechanical wall which has been opened to act as an embrasure.</description>
+    <description>A mechanical wall which has been opened to act as an embrasure.</description>
     <fillPercent>0.99</fillPercent>
     <uiIconPath>UI/Icons/Metal</uiIconPath>
-    <graphicPathSingle>Buildings/Embrasure/Embrasure</graphicPathSingle>
-		<Comps>
-		  <li>
+    <graphicPath>Buildings/Embrasure/Embrasure</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <Comps>
+      <li>
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>15</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
-		  </li>
-		</Comps>
-	</ThingDef>
-	
+      </li>
+    </Comps>
+  </ThingDef>
+
 </ThingDefs>

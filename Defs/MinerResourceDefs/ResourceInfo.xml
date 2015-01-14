@@ -1,61 +1,65 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<ThingDefs>
-  <ThingDef Class="MechanicalDefence2.Miner.ResourceInfoDef">
-    <defName>ResourceList</defName>
-    <thingClass>MechanicalDefence2.Miner.ResourceInfoDef</thingClass>
-    <ResourceInfoList>
-      <!-- ::ENTRY FORMAT::
-        label -> this is the label for the entry, which is what is displayed as the currently selected resource.
-        Materials are given a range for the amount to produce - this is randomly generated each time.
-        spawnRangeMin -> The minimum amount of this resource that is produced each time.
-        spawnRangeMax -> The maximum amount of this resource that is produced each time.
-        resourceDefName -> This is the defName of the resource to produce - MAKE SURE THIS IS CORRECT ! IF IT IS NOT THE GAME WILL NOT START !
-        fissureSizeRequired -> This is the size of fissure required for the resource. 
-        -->
-      <li>
-        <label>Metal</label>
+<MinerResourceDefs>
+
+      <MinerResourceDef>
+        <defName>MD2SteelResourceInfo</defName>
+        <label>Steel</label>
         <spawnRangeMin>15</spawnRangeMin>
         <spawnRangeMax>40</spawnRangeMax>
-        <resourceDefName>Metal</resourceDefName>
+        <ticksToProduce>4800</ticksToProduce>
+        <resourceDefName>Steel</resourceDefName>
         <fissureSizeRequired>Small</fissureSizeRequired>
-      </li>
-      <li>
+      </MinerResourceDef>
+  
+      <MinerResourceDef>
+        <defName>MD2SilverResourceInfo</defName>
         <label>Silver</label>
         <spawnRangeMin>10</spawnRangeMin>
         <spawnRangeMax>30</spawnRangeMax>
+        <ticksToProduce>4800</ticksToProduce>
         <resourceDefName>Silver</resourceDefName>
         <fissureSizeRequired>Medium</fissureSizeRequired>
-      </li>
-      <li>
+      </MinerResourceDef>
+  
+      <MinerResourceDef>
+        <defName>MD2GoldResourceInfo</defName>
         <label>Gold</label>
         <spawnRangeMin>10</spawnRangeMin>
         <spawnRangeMax>25</spawnRangeMax>
+        <ticksToProduce>4800</ticksToProduce>
         <resourceDefName>Gold</resourceDefName>
         <fissureSizeRequired>Medium</fissureSizeRequired>
-      </li>
-      <li>
+      </MinerResourceDef>
+  
+      <MinerResourceDef>
+        <defName>MD2PlasteelResourceInfo</defName>
         <label>Plasteel</label>
         <spawnRangeMin>5</spawnRangeMin>
         <spawnRangeMax>10</spawnRangeMax>
+        <ticksToProduce>4800</ticksToProduce>
         <resourceDefName>Plasteel</resourceDefName>
         <fissureSizeRequired>Large</fissureSizeRequired>
-      </li>
-      <li>
+      </MinerResourceDef>
+  
+      <MinerResourceDef>
+        <defName>MD2UraniumResourceInfo</defName>
         <label>Uranium</label>
         <spawnRangeMin>5</spawnRangeMin>
         <spawnRangeMax>11</spawnRangeMax>
+        <ticksToProduce>4800</ticksToProduce>
         <resourceDefName>Uranium</resourceDefName>
         <fissureSizeRequired>Large</fissureSizeRequired>
-      </li>
-      <li>
+      </MinerResourceDef>
+  
+      <MinerResourceDef>
+        <defName>MD2CoalResourceInfo</defName>
         <label>Coal</label>
         <spawnRangeMin>15</spawnRangeMin>
         <spawnRangeMax>24</spawnRangeMax>
+        <ticksToProduce>4800</ticksToProduce>
         <resourceDefName>MD2Coal</resourceDefName>
         <fissureSizeRequired>Medium</fissureSizeRequired>
-      </li>
-    </ResourceInfoList>
-  </ThingDef>
+      </MinerResourceDef>
     
-</ThingDefs>
+</MinerResourceDefs>

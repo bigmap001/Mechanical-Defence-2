@@ -3,6 +3,7 @@
 <!-- /////////////Corpse////////////////////-->
   <ThingDef>
     <defName>MD2DroidCorpse</defName>
+    <label>dead droid</label>
     <eType>Corpse</eType>
     <thingClass>MechanicalDefence2.Droids.DroidCorpse</thingClass>
     <tickerType>Normal</tickerType>
@@ -50,15 +51,15 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <cooldownTicks>100</cooldownTicks>
-        <meleeDamageAmount>10</meleeDamageAmount>
+        <baseCooldownTicks>100</baseCooldownTicks>
+        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Cut</meleeDamageDef>
         <linkedBodyPartsGroup>LeftKnifeProtrusion</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <cooldownTicks>100</cooldownTicks>
-        <meleeDamageAmount>10</meleeDamageAmount>
+        <baseCooldownTicks>100</baseCooldownTicks>
+        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Cut</meleeDamageDef>
         <linkedBodyPartsGroup>RightKnifeProtrusion</linkedBodyPartsGroup>
       </li>

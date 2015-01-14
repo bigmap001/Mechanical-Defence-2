@@ -29,16 +29,19 @@
     <defName>MD2SandPile</defName>
     <label>pile of sand</label>
     <description>A pile of sand.</description>
-    <graphicPathSingle>Items/Resources/SandPile</graphicPathSingle>
+    <graphicPath>Items/Resources/SandPile</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <useStandardHealth>false</useStandardHealth>
     <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
-    <baseMarketValue>0.5</baseMarketValue>
-    <storeCategories>
+    <statBases>
+      <MarketValue>0.5</MarketValue>
+    </statBases>
+    <thingCategories>
       <li>ResourcesRaw</li>
-    </storeCategories>
+    </thingCategories>
     <stackLimit>400</stackLimit>
     <tradersCarry>false</tradersCarry>
   </ThingDef>
@@ -48,16 +51,19 @@
     <defName>MD2Silicon</defName>
     <label>silicon</label>
     <description>A lump of silicon.</description>
-    <graphicPathSingle>Items/Resources/Silicon</graphicPathSingle>
+    <graphicPath>Items/Resources/Silicon</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <useStandardHealth>false</useStandardHealth>
     <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
-    <baseMarketValue>2</baseMarketValue>
-    <storeCategories>
+    <statBases>
+      <MarketValue>4</MarketValue>
+    </statBases>
+    <thingCategories>
       <li>ResourcesRaw</li>
-    </storeCategories>
+    </thingCategories>
     <stackLimit>100</stackLimit>
   </ThingDef>
 
@@ -66,16 +72,19 @@
     <defName>MD2Circuitry</defName>
     <label>circuitry</label>
     <description>An assortment of circuitry.</description>
-    <graphicPathSingle>Items/Resources/Circuitry</graphicPathSingle>
+    <graphicPath>Items/Resources/Circuitry</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <useStandardHealth>false</useStandardHealth>
     <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
-    <baseMarketValue>10</baseMarketValue>
-    <storeCategories>
+    <statBases>
+      <MarketValue>10</MarketValue>
+    </statBases>
+    <thingCategories>
       <li>Manufactured</li>
-    </storeCategories>
+    </thingCategories>
     <stackLimit>75</stackLimit>
   </ThingDef>
 
@@ -84,16 +93,19 @@
     <defName>MD2Coal</defName>
     <label>coal</label>
     <description>A lump of coal.</description>
-    <graphicPathSingle>Default</graphicPathSingle>
+    <graphicPath>Default</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <useStandardHealth>false</useStandardHealth>
     <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
-    <baseMarketValue>20</baseMarketValue>
-    <storeCategories>
+    <statBases>
+      <MarketValue>20</MarketValue>
+    </statBases>
+    <thingCategories>
       <li>ResourcesRaw</li>
-    </storeCategories>
+    </thingCategories>
     <stackLimit>75</stackLimit>
   </ThingDef>
 
