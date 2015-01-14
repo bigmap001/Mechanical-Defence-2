@@ -2,7 +2,12 @@
 <ModMetaData>
   <name>Mechanical Defence 2</name>
   <author>mipen</author>
-  <url></url>
-  <targetVersion>Alpha 7</targetVersion>
-  <description>Mechanical Defence adds numerous new machines to help your colony survive in the RimWorld wastelands.</description>
+  <url>https://ludeon.com/forums/index.php?topic=7380.0</url>
+  <targetVersion>Alpha 8</targetVersion>
+  <description>Mechanical Defence 2 aims to beef up your colony with new and exciting technologies!
+  
+    Current features include: 
+        -> Droids - Build mechanical slaves to help out around the colony
+        -> Mechanical walls - Walls that can extend or retract, or become an embrasure at your leisure
+        -> Automatic Miner - A large machine which digs ores from the ground</description>
 </ModMetaData>

@@ -36,16 +36,19 @@
     <defName>MD2Ruby</defName>
     <label>Ruby</label>
     <description>A shiny ruby that looks like it's worth a pretty penny.</description>
-    <graphicPathSingle>Items/Ruby/Ruby</graphicPathSingle>
+    <graphicPath>Items/Ruby/Ruby</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <stackLimit>1</stackLimit>
-    <baseMarketValue>400</baseMarketValue>
+    <statBases>
+      <MarketValue>400</MarketValue>
+    </statBases>
     <useStandardHealth>false</useStandardHealth>
-    <storeCategories>
+    <thingCategories>
       <li>Items</li>
-    </storeCategories>
+    </thingCategories>
     <drawGUIOverlay>false</drawGUIOverlay>
   </ThingDef>
 

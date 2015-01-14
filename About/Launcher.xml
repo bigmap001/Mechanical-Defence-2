@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LauncherData>
+  <launcherVersion>0.1</launcherVersion>
+  <modVersion>Update 3</modVersion>
+  <modSettings>
+    <option>
+      <label>Droids</label>
+      <files>
+        <li>Defs/PawnKindDefs/PawnKinds_Droid.xml</li>
+        <li>Defs/ThingDefs/DroidAssembly.xml</li>
+        <li>Defs/ThingDefs/DroidChargePad.xml</li>
+        <li>Defs/ThingDefs/DroidSpawner.xml</li>
+        <li>Defs/ThingDefs/Races_Droid.xml</li>
+        <li>Defs/WorkGiverDefs/WorkGivers.xml</li>
+        <li>Defs/ResearchRecipeDefs/DroidRecipes.xml</li>
+        <li>Defs/ResearchProjectDefs/DroidResearch.xml</li>
+        <li>Defs/RecipeDefs/Recipes_MakeDroids.xml</li>
+        <li>Defs/JobDefs/DroidChargeJob.xml</li>
+        <li>Defs/JobDefs/DroidCremateJob.xml</li>
+        <li>Defs/ThinkTreeDefs/CrematoriusThinkTree.xml</li>
+        <li>Defs/ThinkTreeDefs/DroidThinkTree.xml</li>
+      </files>
+    </option>
+
+    <option>
+      <label>Ore Extractor</label>
+      <files>
+        <li>Defs/MinerResourceDefs/ResourceInfo.xml</li>
+        <li>Defs/ResearchProjectDefs/AutomatedMiningResearch.xml</li>
+        <li>Defs/ThingDefs/Extractor.xml</li>
+        <li>Defs/ThingDefs/Fissure+Generator.xml</li>
+      </files>
+    </option>
+
+    <option>
+      <label>Mechanical Walls</label>
+      <files>
+        <li>Defs/ThingDefs/Mechanical_Embrasure.xml</li>
+        <li>Defs/ThingDefs/Mechanical_Walls.xml</li>
+        <li>Defs/ResearchProjectDefs/MechanisedWalls.xml</li>
+      </files>
+    </option>
+
+    <option>
+      <label>Deep Storage Unit</label>
+      <files>
+        <li>Defs/ThingDefs/DSU.xml</li>
+        <li>Defs/ResearchProjectDefs/DSUResearch.xml</li>
+      </files>
+    </option>
+
+    <option>
+      <label>Coal Power</label>
+      <files>
+        <li>Defs/ThingDefs/Coal_Generator.xml</li>
+        <li>Defs/ResearchProjectDefs/CoalPowerResearch.xml</li>
+      </files>
+    </option>
+  </modSettings>
+</LauncherData>

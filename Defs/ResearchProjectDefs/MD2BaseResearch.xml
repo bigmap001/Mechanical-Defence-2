@@ -38,5 +38,15 @@
       <li>MD2Tech</li>
     </prerequisites>
   </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>MD2PowerGen</defName>
+    <label>MD2 Power Gen I</label>
+    <description>Unlocks researching the tier I power generation techs from MD2.</description>
+    <totalCost>100</totalCost>
+    <prerequisites>
+      <li>MD2UtilitiesI</li>
+    </prerequisites>
+  </ResearchProjectDef>
 
 </ResearchProjectDefs>

@@ -18,19 +18,23 @@
     <thingClass>MechanicalDefence2.MechWall.Building_MechWallExtended</thingClass>
     <category>Building</category>
     <description>An impassable mechanised wall.</description>
-    <graphicPathFolderAppearances>Things/Building/Linked/Wall</graphicPathFolderAppearances>
+    <graphicPath>Things/Building/Linked/Wall</graphicPath>
+    <graphicClass>Graphic_Appearances</graphicClass>
     <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
-    <blueprintgraphicPathSingle>Things/Building/Linked/Wall_Blueprint_Atlas</blueprintgraphicPathSingle>
+    <blueprintgraphicPath>Things/Building/Linked/Wall_Blueprint_Atlas</blueprintgraphicPath>
     <statBases>
       <MaxHealth>300</MaxHealth>
-      <WorkToBuild>1000</WorkToBuild>
+      <WorkToMake>1000</WorkToMake>
       <Flammability>1.0</Flammability>
     </statBases>
-    <madeFromStuff>true</madeFromStuff>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
     <costStuffCount>50</costStuffCount>
     <costList>
-      <Metal>50</Metal>
-      <Silver>20</Silver>
+      <Steel>50</Steel>
     </costList>
     <altitudeLayer>BuildingTall</altitudeLayer>
     <passability>Impassable</passability>
@@ -66,11 +70,13 @@
     <linkDrawerType>CornerFiller</linkDrawerType>
     <linkFlags>
       <li>Wall</li>
+      <li>Rock</li>
     </linkFlags>
     <filthLeavings>
       <SlagRubble>2</SlagRubble>
     </filthLeavings>
     <researchPrerequisite>MD2MechanisedWalls</researchPrerequisite>
+
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -80,9 +86,10 @@
     <thingClass>MechanicalDefence2.MechWall.Building_MechWallRecessed</thingClass>
     <category>Building</category>
     <description>A mechanised wall that has been recessed into the floor.</description>
-    <graphicPathSingle>Buildings/MechWall/MechWall_Recessed</graphicPathSingle>
+    <graphicPath>Buildings/MechWall/MechWall_Recessed</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
-    <blueprintgraphicPathSingle>Things/Building/Linked/Wall_Blueprint_Atlas</blueprintgraphicPathSingle>
+    <blueprintgraphicPath>Things/Building/Linked/Wall_Blueprint_Atlas</blueprintgraphicPath>
     <statBases>
       <MaxHealth>300</MaxHealth>
       <Flammability>0</Flammability>
@@ -90,7 +97,11 @@
     <combatTargetBuilding>false</combatTargetBuilding>
     <altitudeLayer>Waist</altitudeLayer>
     <passability>Standable</passability>
-    <madeFromStuff>true</madeFromStuff>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
     <castEdgeShadows>false</castEdgeShadows>
     <menuHidden>true</menuHidden>
     <fillPercent>0.1</fillPercent>
@@ -118,6 +129,7 @@
     <linkDrawerType>CornerFiller</linkDrawerType>
     <linkFlags>
       <li>Wall</li>
+      <li>Rock</li>
     </linkFlags>
     <filthLeavings>
       <SlagRubble>2</SlagRubble>

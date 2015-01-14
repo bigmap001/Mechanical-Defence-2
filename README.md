@@ -6,6 +6,3 @@ names changed, or have been removed.
 
 --------------------
 
-To install the optional parts of the mod, go into the 'Addons' folder (located in the root directory of the mod) and
-open the .rar file of the part you wish to add. Drag the files located inside this archive into the 'Defs' folder of the
-mod. Click yes to merge all folders, nothing should need to be overwritten.

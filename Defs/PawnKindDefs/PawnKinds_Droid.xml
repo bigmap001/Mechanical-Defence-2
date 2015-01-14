@@ -10,18 +10,16 @@
     <backstoryCategory>Civil</backstoryCategory>
     <isFighter>false</isFighter>
     <maxEnergy>750</maxEnergy>
-    <outfits>
-      <li>
-        <def>Naked</def>
-        <commonality>10</commonality>
-      </li>
-    </outfits>
-    <apparelMoney>
-      <min>0</min>
-      <max>0</max>
-    </apparelMoney>
-  <standardBodyGraphicPathMulti>Pawns/Droid/Body/Droid</standardBodyGraphicPathMulti>
-  </PawnKindDef>
+		<apparelTags>
+			<li>Spacer</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>0</min>
+			<max>0</max>
+		</apparelMoney>
+    <standardBodyGraphicPath>Pawns/Droid/Body/Droid</standardBodyGraphicPath>
+  
+</PawnKindDef>
 
 
   <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
@@ -115,7 +113,7 @@
       <li>Firefighter</li>
     </allowedWorkTypeDefs>
     <backstoryName>CrematoriusDroid</backstoryName>
-    <standardBodyGraphicPathMulti>Pawns/Droid/Crematorius/Cremabody</standardBodyGraphicPathMulti>
+    <standardBodyGraphicPath>Pawns/Droid/Crematorius/Cremabody</standardBodyGraphicPath>
   </PawnKindDef>
 
   <!-- <PawnKindDef ParentName="BaseDroidKind">

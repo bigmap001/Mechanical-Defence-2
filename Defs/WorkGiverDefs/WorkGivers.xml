@@ -7,7 +7,7 @@
     <workType>Crafting</workType>
     <verb>construct</verb>
     <gerund>constructing</gerund>
-    <billGiverDef>MD2DroidAssembly</billGiverDef>
+    <singleBillGiverDef>MD2DroidAssembly</singleBillGiverDef>
 	<requiredActivities>
 		<li>Manipulation</li>
 	</requiredActivities>

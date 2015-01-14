@@ -18,12 +18,13 @@
     <label>Droid Charge Pad</label>
     <eType>BuildingComplex</eType>
     <thingClass>MechanicalDefence2.Droids.DroidChargePad</thingClass>
-    <graphicPathSingle>Buildings/Droids/DroidCharger</graphicPathSingle>
+    <graphicPath>Buildings/Droids/DroidCharger</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
     <statBases>
       <MaxHealth>200</MaxHealth>
       <Flammability>1.0</Flammability>
-      <WorkToBuild>600</WorkToBuild>
+      <WorkToMake>600</WorkToMake>
       <Beauty>6</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -43,13 +44,13 @@
     <castEdgeShadows>false</castEdgeShadows>
     <fillPercent>0.2</fillPercent>
     <costList>
-      <Metal>120</Metal>
+      <Steel>120</Steel>
     </costList>
-    <overDraw>false</overDraw>
+    <graphicOverdraw>false</graphicOverdraw>
     <designationCategory>Misc</designationCategory>
     <researchPrerequisite>MD2DroidCharger</researchPrerequisite>
     <passability>Standable</passability>
-    <hasInteractionSquare>true</hasInteractionSquare>
+    <hasInteractionCell>true</hasInteractionCell>
     <interactionSquareOffset>(0,0,0)</interactionSquareOffset>
     <staticSunShadowHeight>0</staticSunShadowHeight>
     <killedLeavings>
