@@ -68,7 +68,7 @@
     <PlaceWorkers>
       <li>MechanicalDefence2.PowerGen.PlacementRestricter_NextToCoalPlant</li>
     </PlaceWorkers>
-    <researchPrerequisite>MD2DroidCharger</researchPrerequisite>
+    <researchPrerequisite>MD2CoalPowerPlant</researchPrerequisite>
   </ThingDef>
 
   <!-- Coal Burner-->
@@ -119,6 +119,7 @@
       <ignoreNeedsPower>true</ignoreNeedsPower>
     </building>
     <constructEffect>ConstructMetal</constructEffect>
+  <researchPrerequisite>MD2CoalPowerPlant</researchPrerequisite>
   </ThingDef>
 
 
