@@ -14,10 +14,6 @@
     <label>make logistics droid</label>
     <description>
       Constructs a logistics droid.
-      Requires:
-        --75 Steel.
-        --30 silver.
-        --10 circuitry.
     </description>
     <ingredients>
 			<li>
@@ -31,10 +27,10 @@
             <li>
         <filter>
           <thingDefs>
-            <li>Silver</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>30</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -51,7 +47,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-        <li>Silver</li>
+        <li>Plasteel</li>
         <li>MD2Circuitry</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -65,10 +61,6 @@
     <label>make mining droid</label>
     <description>
       Constructs a mining droid.
-      Requires:
-        --75 Steel.
-        --60 silver.
-        --20 circuitry.
     </description>
     <ingredients>
       <li>
@@ -82,10 +74,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Silver</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>60</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
@@ -102,7 +94,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-        <li>Silver</li>
+        <li>Plasteel</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -116,10 +108,6 @@
     <label>make grower droid</label>
     <description>
       Constructs a grower droid.
-      Requires:
-        --75 Steel.
-        --75 silver.
-        --25 circuitry.
     </description>
     <ingredients>
       <li>
@@ -133,10 +121,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Silver</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>75</count>
+        <count>15</count>
       </li>
       <li>
         <filter>
@@ -153,7 +141,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-        <li>Silver</li>
+        <li>Plasteel</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -167,10 +155,6 @@
     <label>make medic droid</label>
     <description>
       Constructs a medic droid.
-      Requires:
-        --75 Steel.
-        --75 silver.
-        --35 circuitry.
     </description>
     <ingredients>
       <li>
@@ -184,10 +168,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Silver</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>75</count>
+        <count>15</count>
       </li>
       <li>
         <filter>
@@ -204,7 +188,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-        <li>Silver</li>
+        <li>Plasteel</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -218,10 +202,6 @@
     <label>make builder droid</label>
     <description>
       Constructs a builder droid.
-      Requires:
-        --75 Steel.
-        --60 silver.
-        --20 circuitry.
     </description>
     <ingredients>
       <li>
@@ -235,10 +215,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Silver</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>60</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
@@ -255,7 +235,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-        <li>Silver</li>
+        <li>Plasteel</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -269,10 +249,6 @@
     <label>make crafting droid</label>
     <description>
       Constructs a crafting droid.
-      Requires:
-        --75 Steel.
-        --75 silver.
-        --25 circuitry.
     </description>
     <ingredients>
       <li>
@@ -286,10 +262,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Silver</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>75</count>
+        <count>15</count>
       </li>
       <li>
         <filter>
@@ -306,7 +282,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-        <li>Silver</li>
+        <li>Plasteel</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -320,10 +296,6 @@
     <label>make cooking droid</label>
     <description>
       Constructs a cooking droid.
-      Requires:
-        --75 Steel.
-        --60 silver.
-        --20 circuitry.
     </description>
     <ingredients>
       <li>
@@ -337,10 +309,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Silver</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>60</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
@@ -357,7 +329,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-        <li>Silver</li>
+        <li>Plasteel</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -371,10 +343,6 @@
     <label>make basic combat droid</label>
     <description>
       Constructs a basic combat droid.
-      Requires:
-        --75 Steel.
-        --75 silver.
-        --35 circuitry.
     </description>
     <ingredients>
       <li>
@@ -388,10 +356,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Silver</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>75</count>
+        <count>15</count>
       </li>
       <li>
         <filter>
@@ -408,7 +376,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-        <li>Silver</li>
+        <li>Plasteel</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -422,10 +390,6 @@
     <label>make crematorius droid</label>
     <description>
       Constructs a cremation droid.
-      Requires:
-      --75 Steel.
-      --75 silver.
-      --35 circuitry.
     </description>
     <ingredients>
       <li>
@@ -439,10 +403,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Silver</li>
+            <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>75</count>
+        <count>20</count>
       </li>
       <li>
         <filter>
@@ -459,7 +423,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-        <li>Silver</li>
+        <li>Plasteel</li>
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>

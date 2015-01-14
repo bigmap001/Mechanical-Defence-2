@@ -110,7 +110,7 @@
             <li>Silver</li>
           </thingDefs>
         </filter>
-        <count>15</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -122,7 +122,7 @@
       </li>
     </ingredients>
     <products>
-      <MD2Circuitry>5</MD2Circuitry>
+      <MD2Circuitry>10</MD2Circuitry>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
