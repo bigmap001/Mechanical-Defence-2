@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
-<!-- /////////////Corpse////////////////////-->
+  <!-- /////////////Corpse////////////////////-->
   <ThingDef>
     <defName>MD2DroidCorpse</defName>
     <label>dead droid</label>
@@ -32,7 +32,7 @@
     </inspectorTabs>
     <drawGUIOverlay>true</drawGUIOverlay>
   </ThingDef>
-  
+
   <ThingDef Name="BaseDroid" Abstract="true" ParentName="BasePawn" Class="MechanicalDefence2.Droids.DroidThingDef">
     <label>droid</label>
     <description>An intelligent droid.</description>
@@ -44,9 +44,11 @@
       <tallness>0.8</tallness>
     </sunShadowInfo>
     <statBases>
-      <MoveSpeed>4.61</MoveSpeed>
+      <MoveSpeed>4.75</MoveSpeed>
       <Flammability>0.0</Flammability>
       <MaxHealth>100</MaxHealth>
+      <ComfyTemperatureMin>-80</ComfyTemperatureMin>
+      <ComfyTemperatureMax>270</ComfyTemperatureMax>
     </statBases>
     <verbs>
       <li>
@@ -68,7 +70,7 @@
     <race>
       <thinkTree>MD2DroidThinkTree</thinkTree>
       <mechanoid>true</mechanoid>
-      <humanoid>true</humanoid>
+      <!--<humanoid>true</humanoid>-->
       <hasGenders>false</hasGenders>
       <isFlesh>false</isFlesh>
       <hasLeather>false</hasLeather>
@@ -76,7 +78,7 @@
       <hasStory>true</hasStory>
       <minFoodQuality>Raw</minFoodQuality>
       <hungerRate>0</hungerRate>
-      <needsRest>true</needsRest>
+      <needsRest>false</needsRest>
       <body>Mechanoid</body>
       <bodySize>1</bodySize>
       <healthScale>1</healthScale>
