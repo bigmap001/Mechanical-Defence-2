@@ -7,22 +7,24 @@
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Interact_ConstructMetal</soundWorking>
   </RecipeDef>
-
-
+  
+  
   <RecipeDef ParentName="BaseDroidRecipe">
     <defName>MD2MakeLogisticsDroid</defName>
     <label>make logistics droid</label>
-    <description>Constructs a logistics droid.</description>
+    <description>
+      Constructs a logistics droid.
+    </description>
     <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
-        </filter>
-        <count>75</count>
-      </li>
-      <li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+            <li>
         <filter>
           <thingDefs>
             <li>Plasteel</li>
@@ -38,26 +40,28 @@
         </filter>
         <count>10</count>
       </li>
-    </ingredients>
-    <products>
+		</ingredients>
+		<products>
       <MD2SpawnLogisticsDroid>1</MD2SpawnLogisticsDroid>
-    </products>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Steel</li>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
         <li>Plasteel</li>
         <li>MD2Circuitry</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>130</Crafting>
-    </skillGains>
-  </RecipeDef>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillGains>
+        <Crafting>130</Crafting>
+		</skillGains>
+	</RecipeDef>
 
   <RecipeDef ParentName="BaseDroidRecipe">
     <defName>MD2MakeMiningDroid</defName>
     <label>make mining droid</label>
-    <description>Constructs a mining droid.</description>
+    <description>
+      Constructs a mining droid.
+    </description>
     <ingredients>
       <li>
         <filter>
@@ -102,7 +106,9 @@
   <RecipeDef ParentName="BaseDroidRecipe">
     <defName>MD2MakeGrowerDroid</defName>
     <label>make grower droid</label>
-    <description>Constructs a grower droid.</description>
+    <description>
+      Constructs a grower droid.
+    </description>
     <ingredients>
       <li>
         <filter>
@@ -147,7 +153,9 @@
   <RecipeDef ParentName="BaseDroidRecipe">
     <defName>MD2MakeMedicDroid</defName>
     <label>make medic droid</label>
-    <description>Constructs a medic droid.</description>
+    <description>
+      Constructs a medic droid.
+    </description>
     <ingredients>
       <li>
         <filter>
@@ -192,7 +200,9 @@
   <RecipeDef ParentName="BaseDroidRecipe">
     <defName>MD2MakeBuilderDroid</defName>
     <label>make builder droid</label>
-    <description>Constructs a builder droid.</description>
+    <description>
+      Constructs a builder droid.
+    </description>
     <ingredients>
       <li>
         <filter>
@@ -237,7 +247,9 @@
   <RecipeDef ParentName="BaseDroidRecipe">
     <defName>MD2MakeCraftingDroid</defName>
     <label>make crafting droid</label>
-    <description>Constructs a crafting droid.</description>
+    <description>
+      Constructs a crafting droid.
+    </description>
     <ingredients>
       <li>
         <filter>
@@ -282,7 +294,9 @@
   <RecipeDef ParentName="BaseDroidRecipe">
     <defName>MD2MakeCookingDroid</defName>
     <label>make cooking droid</label>
-    <description>Constructs a cooking droid.</description>
+    <description>
+      Constructs a cooking droid.
+    </description>
     <ingredients>
       <li>
         <filter>
@@ -327,7 +341,9 @@
   <RecipeDef ParentName="BaseDroidRecipe">
     <defName>MD2MakeBasicCombatDroid</defName>
     <label>make basic combat droid</label>
-    <description>Constructs a basic combat droid.</description>
+    <description>
+      Constructs a basic combat droid.
+    </description>
     <ingredients>
       <li>
         <filter>
@@ -372,7 +388,9 @@
   <RecipeDef ParentName="BaseDroidRecipe">
     <defName>MD2MakeCrematoriusDroid</defName>
     <label>make crematorius droid</label>
-    <description>Constructs a cremation droid.</description>
+    <description>
+      Constructs a cremation droid.
+    </description>
     <ingredients>
       <li>
         <filter>
