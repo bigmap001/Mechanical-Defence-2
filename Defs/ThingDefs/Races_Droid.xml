@@ -66,19 +66,19 @@
         <linkedBodyPartsGroup>RightKnifeProtrusion</linkedBodyPartsGroup>
       </li>
     </verbs>
-    <drawGUIOverlay>false</drawGUIOverlay>
+    <drawGUIOverlay>true</drawGUIOverlay>
     <race>
       <thinkTree>MD2DroidThinkTree</thinkTree>
       <mechanoid>true</mechanoid>
-      <!--<humanoid>true</humanoid>-->
-      <hasGenders>false</hasGenders>
+      <humanoid>true</humanoid>
+      <hasGenders>true</hasGenders>
       <isFlesh>false</isFlesh>
       <hasLeather>false</hasLeather>
       <nameCategory>HumanStandard</nameCategory>
       <hasStory>true</hasStory>
       <minFoodQuality>Raw</minFoodQuality>
       <hungerRate>0</hungerRate>
-      <needsRest>false</needsRest>
+      <needsRest>true</needsRest>
       <body>Mechanoid</body>
       <bodySize>1</bodySize>
       <healthScale>1</healthScale>
@@ -91,36 +91,18 @@
     </race>
   </ThingDef>
 
-  <ThingDef ParentName="BasePawn" Class="MechanicalDefence2.Droids.DroidThingDef">
+  <ThingDef ParentName="BaseDroid" Class="MechanicalDefence2.Droids.DroidThingDef">
     <defName>DroidRace</defName>
     <label>droid</label>
     <description>An intelligent droid.</description>
     <uiIconPath>Things/Pawn/Humanoid/UI/IconHuman</uiIconPath>
     <standardHeadGraphicPathMulti>Pawns/Droid/Head/DroidHead</standardHeadGraphicPathMulti>
-    <drawGUIOverlay>false</drawGUIOverlay>
-    <race>
-      <thinkTree>MD2DroidThinkTree</thinkTree>
-      <mechanoid>true</mechanoid>
-      <humanoid>true</humanoid>
-      <hasGenders>false</hasGenders>
-      <isFlesh>false</isFlesh>
-      <hasLeather>false</hasLeather>
-      <nameCategory>HumanStandard</nameCategory>
-      <hasStory>true</hasStory>
-      <minFoodQuality>Raw</minFoodQuality>
-      <hungerRate>0</hungerRate>
-      <needsRest>true</needsRest>
-      <body>Mechanoid</body>
-      <bodySize>1</bodySize>
-      <healthScale>1</healthScale>
-      <diet>Omnivorous</diet>
-    </race>
+
   </ThingDef>
 
   <ThingDef ParentName="BaseDroid" Class="MechanicalDefence2.Droids.DroidThingDef">
     <defName>CrematoriusDroidRace</defName>
     <thingClass>MechanicalDefence2.Droids.Crematorius</thingClass>
-    <standardHeadGraphicPathMulti>Pawns/Droid/Crematorius/Cremahead</standardHeadGraphicPathMulti>
     <sunShadowInfo>
       <baseWidth>0.7</baseWidth>
       <baseHeight>0.8</baseHeight>
@@ -133,6 +115,7 @@
     </statBases>
     <race>
       <thinkTree>MD2CrematoriusDroidThinkTree</thinkTree>
+      <bodySize>1.2</bodySize>
     </race>
   </ThingDef>
 </ThingDefs>

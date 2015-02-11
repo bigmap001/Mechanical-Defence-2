@@ -18,8 +18,8 @@
 			<max>0</max>
 		</apparelMoney>
     <standardBodyGraphicPath>Pawns/Droid/Body/Droid</standardBodyGraphicPath>
-  
-</PawnKindDef>
+    <headGraphicPath>Pawns/Droid/Head/DroidHead</headGraphicPath>
+  </PawnKindDef>
 
 
   <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
@@ -61,6 +61,8 @@
       <li>Doctor</li>
     </allowedWorkTypeDefs>
     <backstoryName>MedicDroid</backstoryName>
+    <standardBodyGraphicPath>Pawns/Droid/MedicDroid/DocDroid</standardBodyGraphicPath>
+    <headGraphicPath>Pawns/Droid/MedicDroid/DocDhead</headGraphicPath>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
@@ -72,6 +74,8 @@
       <li>Repair</li>
     </allowedWorkTypeDefs>
     <backstoryName>BuilderDroid</backstoryName>
+    <standardBodyGraphicPath>Pawns/Droid/BuildingDroid/ConstructorDroid</standardBodyGraphicPath>
+    <headGraphicPath>Pawns/Droid/BuildingDroid/ConstructorDhead</headGraphicPath>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
@@ -103,6 +107,8 @@
     </allowedWorkTypeDefs>
     <isFighter>true</isFighter>
     <backstoryName>BasicCombatDroid</backstoryName>
+    <standardBodyGraphicPath>Pawns/Droid/CombatDroid/BattleDroid</standardBodyGraphicPath>
+    <headGraphicPath>Pawns/Droid/CombatDroid/BattleDhead</headGraphicPath>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
@@ -114,6 +120,7 @@
     </allowedWorkTypeDefs>
     <backstoryName>CrematoriusDroid</backstoryName>
     <standardBodyGraphicPath>Pawns/Droid/Crematorius/Cremabody</standardBodyGraphicPath>
+    <headGraphicPath>Pawns/Droid/Crematorius/Cremahead</headGraphicPath>
   </PawnKindDef>
 
   <!-- <PawnKindDef ParentName="BaseDroidKind">
