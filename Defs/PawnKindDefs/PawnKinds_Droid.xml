@@ -10,13 +10,13 @@
     <backstoryCategory>Civil</backstoryCategory>
     <isFighter>false</isFighter>
     <maxEnergy>750</maxEnergy>
-		<apparelTags>
-			<li>Spacer</li>
-		</apparelTags>
-		<apparelMoney>
-			<min>0</min>
-			<max>0</max>
-		</apparelMoney>
+    <apparelTags>
+      <li>Spacer</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>0</min>
+      <max>0</max>
+    </apparelMoney>
     <standardBodyGraphicPath>Pawns/Droid/Body/Droid</standardBodyGraphicPath>
     <headGraphicPath>Pawns/Droid/Head/DroidHead</headGraphicPath>
   </PawnKindDef>
@@ -30,6 +30,8 @@
       <li>Hauling</li>
     </allowedWorkTypeDefs>
     <backstoryName>LogisticsDroid</backstoryName>
+    <standardBodyGraphicPath>Pawns/Droid/LogisticsDroid/Droid</standardBodyGraphicPath>
+    <headGraphicPath>Pawns/Droid/LogisticsDroid/DroidHead</headGraphicPath>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BaseDroidKind" Class="MechanicalDefence2.Droids.DroidKindDef">
