@@ -50,45 +50,72 @@
       <ComfyTemperatureMin>-80</ComfyTemperatureMin>
       <ComfyTemperatureMax>270</ComfyTemperatureMax>
     </statBases>
+    <comps>
+      <li>
+        <compClass>CompAttachBase</compClass>
+      </li>
+    </comps>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <baseCooldownTicks>100</baseCooldownTicks>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Cut</meleeDamageDef>
         <linkedBodyPartsGroup>LeftKnifeProtrusion</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <baseCooldownTicks>100</baseCooldownTicks>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Cut</meleeDamageDef>
         <linkedBodyPartsGroup>RightKnifeProtrusion</linkedBodyPartsGroup>
       </li>
     </verbs>
-    <drawGUIOverlay>true</drawGUIOverlay>
+    <drawGUIOverlay>false</drawGUIOverlay>
     <race>
       <thinkTree>MD2DroidThinkTree</thinkTree>
-      <mechanoid>true</mechanoid>
+      <!--<mechanoid>true</mechanoid>-->
       <humanoid>true</humanoid>
       <hasGenders>true</hasGenders>
       <isFlesh>false</isFlesh>
       <hasLeather>false</hasLeather>
+      <leatherColor>(255,255,255)</leatherColor>
+      <leatherCommonalityFactor>0.00000001</leatherCommonalityFactor>
+      <leatherInsulation>1</leatherInsulation>
+      <leatherStatFactors>
+        <MarketValue>0</MarketValue>
+      </leatherStatFactors>
       <nameCategory>HumanStandard</nameCategory>
       <hasStory>true</hasStory>
-      <minFoodQuality>Raw</minFoodQuality>
+      <minFoodTaste>Raw</minFoodTaste>
       <hungerRate>0</hungerRate>
       <needsRest>true</needsRest>
       <body>Mechanoid</body>
       <bodySize>1</bodySize>
-      <healthScale>1</healthScale>
+      <healthScale>1.5</healthScale>
       <diet>Omnivorous</diet>
       <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
       <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
       <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
-    </race>
+      <ageGenerationCurve>
+        <points>
+          <li>
+            <loc>(0,0)</loc>
+          </li>
+          <li>
+            <loc>(1,100)</loc>
+          </li>
+          <li>
+            <loc>(5,80)</loc>
+          </li>
+          <li>
+            <loc>(20,0)</loc>
+          </li>
+        </points>
+      </ageGenerationCurve>
+  </race>
   </ThingDef>
 
   <ThingDef ParentName="BaseDroid" Class="MechanicalDefence2.Droids.DroidThingDef">

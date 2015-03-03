@@ -9,6 +9,7 @@
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <constructEffect>ConstructMetal</constructEffect>
     <repairEffect>Repair</repairEffect>
+    <filthLeaving>BuildingRubble</filthLeaving>
   </ThingDef>
   
 
@@ -54,7 +55,7 @@
     <interactionSquareOffset>(0,0,0)</interactionSquareOffset>
     <staticSunShadowHeight>0</staticSunShadowHeight>
     <killedLeavings>
-      <SlagRubble>1</SlagRubble>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
     </killedLeavings>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
   </ThingDef>

@@ -10,6 +10,7 @@
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <constructEffect>ConstructMetal</constructEffect>
     <repairEffect>Repair</repairEffect>
+    <filthLeaving>BuildingRubble</filthLeaving>
   </ThingDef>
   
 
@@ -37,9 +38,6 @@
       <WoodLog>20</WoodLog>
 		</costList>
     <graphicOverdraw>false</graphicOverdraw>
-		<filthLeavings>
-      <SlagRubble>2</SlagRubble>
-		</filthLeavings>
 		<building>
 		<fixedStorageSettings>
 			<priority>Important</priority>
@@ -97,9 +95,6 @@
       <WoodLog>30</WoodLog>
     </costList>
     <graphicOverdraw>false</graphicOverdraw>
-    <filthLeavings>
-      <SlagRubble>2</SlagRubble>
-    </filthLeavings>
     <building>
       <fixedStorageSettings>
         <priority>Important</priority>
@@ -157,9 +152,6 @@
       <WoodLog>40</WoodLog>
     </costList>
     <graphicOverdraw>false</graphicOverdraw>
-    <filthLeavings>
-      <SlagRubble>2</SlagRubble>
-    </filthLeavings>
     <building>
       <fixedStorageSettings>
         <priority>Important</priority>

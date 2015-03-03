@@ -51,10 +51,8 @@
         <li>MD2Circuitry</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<skillGains>
-        <Crafting>130</Crafting>
-		</skillGains>
-	</RecipeDef>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
 
   <RecipeDef ParentName="BaseDroidRecipe">
     <defName>MD2MakeMiningDroid</defName>
@@ -98,9 +96,7 @@
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>150</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef ParentName="BaseDroidRecipe">
@@ -145,9 +141,7 @@
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>150</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef ParentName="BaseDroidRecipe">
@@ -192,9 +186,7 @@
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>150</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef ParentName="BaseDroidRecipe">
@@ -239,9 +231,7 @@
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>150</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef ParentName="BaseDroidRecipe">
@@ -286,9 +276,7 @@
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>150</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef ParentName="BaseDroidRecipe">
@@ -333,9 +321,7 @@
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>150</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef ParentName="BaseDroidRecipe">
@@ -380,9 +366,7 @@
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>150</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef ParentName="BaseDroidRecipe">
@@ -427,9 +411,7 @@
         <li>MD2Circuitry</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>150</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
 </RecipeDefs>

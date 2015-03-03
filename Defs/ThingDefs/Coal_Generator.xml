@@ -9,6 +9,7 @@
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
+    <filthLeaving>BuildingRubble</filthLeaving>
   </ThingDef>
 
   <!-- Coal Feeder -->
@@ -57,11 +58,8 @@
     <rotatable>true</rotatable>
     <neverMultiSelect>true</neverMultiSelect>
     <killedLeavings>
-      <ChunkSlag>1</ChunkSlag>
-    </killedLeavings>
-    <filthLeavings>
-      <SlagRubble>2</SlagRubble>
-    </filthLeavings>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+  </killedLeavings>
     <designationCategory>Power</designationCategory>
     <staticSunShadowHeight>0.3</staticSunShadowHeight>
     <itemSurface>true</itemSurface>
@@ -101,14 +99,12 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>-5600</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
+        <powerToggleable>false</powerToggleable>
       </li>
     </comps>
     <killedLeavings>
-      <ChunkSlag>16</ChunkSlag>
+      <ChunkSlagSteel>16</ChunkSlagSteel>
     </killedLeavings>
-    <filthLeavings>
-      <SlagRubble>3</SlagRubble>
-    </filthLeavings>
     <rotatable>false</rotatable>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>

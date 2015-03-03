@@ -12,7 +12,6 @@
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>75</stackLimit>
-    <tradersCarry>true</tradersCarry>
     <comps>
       <li>
         <compClass>CompForbiddable</compClass>
@@ -43,7 +42,7 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>400</stackLimit>
-    <tradersCarry>false</tradersCarry>
+    <tradeability>Never</tradeability>
   </ThingDef>
 
   <!-- Silicon -->

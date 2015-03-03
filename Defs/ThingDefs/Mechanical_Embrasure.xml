@@ -8,6 +8,7 @@
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
+    <filthLeaving>BuildingRubble</filthLeaving>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase" Name="WallBase" Abstract="True">
@@ -56,10 +57,6 @@
       <li>Wall</li>
       <li>Rock</li>
     </linkFlags>
-    <filthLeavings>
-      <SlagRubble>2</SlagRubble>
-    </filthLeavings>
-
   </ThingDef>
 
   <ThingDef ParentName="WallBase">

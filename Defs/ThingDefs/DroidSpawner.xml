@@ -14,7 +14,7 @@
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>1</stackLimit>
-    <tradersCarry>false</tradersCarry>
+    <tradeability>Never</tradeability>
     <comps>
       <li>
         <compClass>CompForbiddable</compClass>

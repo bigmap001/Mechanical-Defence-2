@@ -9,6 +9,7 @@
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
+    <filthLeaving>BuildingRubble</filthLeaving>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -72,9 +73,6 @@
       <li>Wall</li>
       <li>Rock</li>
     </linkFlags>
-    <filthLeavings>
-      <SlagRubble>2</SlagRubble>
-    </filthLeavings>
     <researchPrerequisite>MD2MechanisedWalls</researchPrerequisite>
 
   </ThingDef>
@@ -131,9 +129,6 @@
       <li>Wall</li>
       <li>Rock</li>
     </linkFlags>
-    <filthLeavings>
-      <SlagRubble>2</SlagRubble>
-    </filthLeavings>
   </ThingDef>
 
 </Buildings>

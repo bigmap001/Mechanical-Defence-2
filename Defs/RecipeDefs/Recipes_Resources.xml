@@ -9,7 +9,6 @@
     <jobString>Making silicon.</jobString>
     <workAmount>300</workAmount>
     <workSpeedStat>StonecuttingSpeed</workSpeedStat>
-    <efficiencyStat>StonecuttingEfficiency</efficiencyStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_UseMetalRefinery</soundWorking>
     <recipeUsers>
@@ -33,9 +32,7 @@
         <li>MD2SandPile</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>50</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef>
@@ -45,7 +42,6 @@
     <jobString>Crushing stone.</jobString>
     <workAmount>500</workAmount>
     <workSpeedStat>StonecuttingSpeed</workSpeedStat>
-    <efficiencyStat>StonecuttingEfficiency</efficiencyStat>
     <effectWorking>CutStone</effectWorking>
     <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
     <recipeUsers>
@@ -77,9 +73,7 @@
         <li>ChunkMarble</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>120</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef>
@@ -89,7 +83,6 @@
     <jobString>Soldering PCB's.</jobString>
     <workAmount>600</workAmount>
     <workSpeedStat>MD2SolderingSpeed</workSpeedStat>
-    <efficiencyStat>MD2SolderingEfficiency</efficiencyStat>
     <effectWorking>Repair</effectWorking>
     <soundWorking>Interact_Repair</soundWorking>
     <recipeUsers>
@@ -131,8 +124,7 @@
         <li>MD2Silicon</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <skillGains>
-      <Crafting>150</Crafting>
-    </skillGains>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
+  
 </RecipeDefs>

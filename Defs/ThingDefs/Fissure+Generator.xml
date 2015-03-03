@@ -11,6 +11,7 @@
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <constructEffect>ConstructMetal</constructEffect>
     <repairEffect>Repair</repairEffect>
+    <filthLeaving>BuildingRubble</filthLeaving>
   </ThingDef>
 
 
@@ -73,11 +74,8 @@
     </comps>
     <graphicOverdraw>false</graphicOverdraw>
     <killedLeavings>
-      <ChunkSlag>3</ChunkSlag>
+      <ChunkSlagSteel>3</ChunkSlagSteel>
     </killedLeavings>
-    <filthLeavings>
-      <SlagRubble>3</SlagRubble>
-    </filthLeavings>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Production</designationCategory>
     <staticSunShadowHeight>0</staticSunShadowHeight>

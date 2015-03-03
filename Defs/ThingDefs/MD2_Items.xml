@@ -15,7 +15,6 @@
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>75</stackLimit>
-    <tradersCarry>true</tradersCarry>
     <comps>
       <li>
         <compClass>CompForbiddable</compClass>
@@ -42,6 +41,7 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <stackLimit>1</stackLimit>
+    <tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>400</MarketValue>
     </statBases>

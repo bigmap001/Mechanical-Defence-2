@@ -8,6 +8,7 @@
     <drawerType>MapMeshAndRealTime</drawerType>
     <constructEffect>ConstructMetal</constructEffect>
     <repairEffect>Repair</repairEffect>
+    <filthLeaving>BuildingRubble</filthLeaving>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -46,11 +47,8 @@
       <li>MechanicalDefence2.Miner.PlacementRestrictor_OnFissure</li>
     </placeWorkers>
     <killedLeavings>
-      <ChunkSlag>3</ChunkSlag>
+      <ChunkSlagSteel>3</ChunkSlagSteel>
     </killedLeavings>
-    <filthLeavings>
-      <SlagRubble>3</SlagRubble>
-    </filthLeavings>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Production</designationCategory>
