@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+
+  <!-- Coal Feeder -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>MD2ManufacturingControlConsole</defName>
+    <eType>BuildingComplex</eType>
+    <label>control console</label>
+    <description>control console.</description>
+    <thingClass>MechanicalDefence2.ManufacturingPlant.ManufacturingControlConsole</thingClass>
+    <graphicPath>Default</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <altitudeLayer>Waist</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.7</fillPercent>
+    <statBases>
+      <WorkToMake>330</WorkToMake>
+      <MaxHealth>100</MaxHealth>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <comps>
+      <li>
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+        <transmitsPower>false</transmitsPower>
+      </li>
+    </comps>
+    <costList>
+      <Steel>40</Steel>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <rotatable>true</rotatable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <killedLeavings>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+    </killedLeavings>
+    <filthLeaving>BuildingRubble</filthLeaving>
+    <designationCategory>Production</designationCategory>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+    <itemSurface>true</itemSurface>
+  </ThingDef>
+
+</Buildings>

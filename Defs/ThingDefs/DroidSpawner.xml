@@ -35,6 +35,9 @@
     <soundDrop>Metal_Drop</soundDrop>
     <graphicPath>Default</graphicPath>
     <graphicClass>Graphic_Single</graphicClass>
+    <thingCategories>
+      <li>MD2Spawners</li>
+    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="DroidSpawnerBase">
