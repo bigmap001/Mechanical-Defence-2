@@ -13,7 +13,7 @@
         <amount>200</amount>
       </li>
     </BuildingCost>
-    <buildingLengthInt>72000</buildingLengthInt>
+    <buildingLengthInt>500</buildingLengthInt>
     <godModeBuildingLengthInt>300</godModeBuildingLengthInt>
     <constructionPowerUsage>300</constructionPowerUsage>
     <productionPowerUsage>100</productionPowerUsage>
