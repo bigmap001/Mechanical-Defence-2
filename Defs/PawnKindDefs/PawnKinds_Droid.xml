@@ -26,6 +26,7 @@
     <defName>MD2LogisticsDroid</defName>
     <label>Logistics Droid</label>
     <allowedWorkTypeDefs>
+      <li>Firefighter</li>
       <li>Cleaning</li>
       <li>Hauling</li>
     </allowedWorkTypeDefs>

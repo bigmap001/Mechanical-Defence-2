@@ -51,6 +51,9 @@
     <designationCategory>Production</designationCategory>
     <staticSunShadowHeight>0.3</staticSunShadowHeight>
     <itemSurface>false</itemSurface>
+    <placeWorkers>
+      <li>MechanicalDefence2.ManufacturingPlant.PlaceWorker_SingleConsole</li>
+    </placeWorkers>
   </ThingDef>
 
 </Buildings>

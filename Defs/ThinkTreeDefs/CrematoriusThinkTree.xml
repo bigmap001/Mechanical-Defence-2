@@ -27,8 +27,12 @@
             <!-- Queue for forced work -->
             <li Class="JobGiver_JobQueue" />
 
+            <li Class="JobGiver_WorkRoot">
+              <onlyEmergencyWork>true</onlyEmergencyWork>
+            </li>
+
             <li Class="MechanicalDefence2.Droids.JobGiver_GetCorpses"/>
-            
+
             <!-- Seek safe temperatures -->
             <li Class="JobGiver_SeekSafeTemperature" />
 

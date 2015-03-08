@@ -38,6 +38,11 @@
         <!-- If on colonist team, do non-forced non-emergency work and idle -->
 				<li Class="ThinkNode_ConditionalColonist">
 					<subNodes>
+
+            <li Class="JobGiver_WorkRoot">
+                <onlyEmergencyWork>true</onlyEmergencyWork>
+            </li>
+            
 						<li Class="MechanicalDefence2.Droids.JobGiver_ForDroids">
 							<onlyEmergencyWork>false</onlyEmergencyWork>
 						</li>
