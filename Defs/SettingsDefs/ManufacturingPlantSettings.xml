@@ -18,6 +18,7 @@
     <constructionPowerUsage>300</constructionPowerUsage>
     <productionPowerUsage>100</productionPowerUsage>
     <idlePowerUsage>10</idlePowerUsage>
+    <instaBuild>true</instaBuild>
   </SettingsDef>
 
   <SettingsDef>

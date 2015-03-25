@@ -19,6 +19,7 @@
     </apparelMoney>
     <standardBodyGraphicPath>Pawns/Droid/Body/Droid</standardBodyGraphicPath>
     <headGraphicPath>Pawns/Droid/Head/DroidHead</headGraphicPath>
+    <Settings>MD2DroidSettings</Settings>
   </PawnKindDef>
 
 
